@@ -19,10 +19,8 @@ AusEnergyPulse is a Streamlit-based interactive dashboard and ML pipeline that a
 ausenergypulse/
 ├── streamlit_app.py
 ├── requirements.txt
-├── data/
-│   └── resources-and-energy-major-projects-2024-data.xlsx
-├── outputs/
-│   └── critical_minerals_map.html
+├── data/resources-and-energy-major-projects-2024-data.xlsx  
+├── outputs/critical_minerals_map.html
 └── README.md
 
 💡 Future Enhancements
