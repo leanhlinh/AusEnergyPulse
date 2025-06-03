@@ -1,0 +1,2677 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d4ea0bc1f126a6726c5e62c1385681e8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d4ea0bc1f126a6726c5e62c1385681e8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d4ea0bc1f126a6726c5e62c1385681e8 = L.map(
+                "map_d4ea0bc1f126a6726c5e62c1385681e8",
+                {
+                    center: [-25.2744, 133.7751],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ec0d40c29b382d8c111d7f50ca991145 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d4ea0bc1f126a6726c5e62c1385681e8);
+        
+    
+            var marker_cluster_482c19f0d46760660f1471a741aa67c6 = L.markerClusterGroup(
+                {}
+            );
+            map_d4ea0bc1f126a6726c5e62c1385681e8.addLayer(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var marker_14e09f8d166ceeb0921a47e286d8d9cc = L.marker(
+                [-32.203, 115.773],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_ad6084015dca75634c539690145cdf8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_14e09f8d166ceeb0921a47e286d8d9cc.setIcon(icon_ad6084015dca75634c539690145cdf8d);
+        
+    
+        var popup_e51283cfbbd84eb06cbf9f79211b9fc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9890d86ed31ed7c4a13b4dd716d7feb0 = $(`<div id="html_9890d86ed31ed7c4a13b4dd716d7feb0" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> FYI HPA Project<br>     <b>Company:</b> Cadoux Limited<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Aluminium, Alumina, Bauxite<br>     <b>Cost:</b> $291 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_e51283cfbbd84eb06cbf9f79211b9fc2.setContent(html_9890d86ed31ed7c4a13b4dd716d7feb0);
+        
+
+        marker_14e09f8d166ceeb0921a47e286d8d9cc.bindPopup(popup_e51283cfbbd84eb06cbf9f79211b9fc2)
+        ;
+
+        
+    
+    
+            var marker_74495f44ed24a8c630710ea1a660e653 = L.marker(
+                [-23.843, 151.2498],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_0f1f12d04bd2f2b9114e2f9422ab89ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_74495f44ed24a8c630710ea1a660e653.setIcon(icon_0f1f12d04bd2f2b9114e2f9422ab89ab);
+        
+    
+        var popup_a2749853367507d4dfc85c02fe231fc6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f73dbc9d14478f15c9d9eeb776b5586b = $(`<div id="html_f73dbc9d14478f15c9d9eeb776b5586b" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> HPA First Project - Stage 2<br>     <b>Company:</b> Alpha HPA<br>     <b>State:</b> QLD<br>     <b>Commodity:</b> Aluminium, Alumina, Bauxite<br>     <b>Cost:</b> $553 M<br>     <b>Start Year:</b> 2024.0     </div>`)[0];
+            popup_a2749853367507d4dfc85c02fe231fc6.setContent(html_f73dbc9d14478f15c9d9eeb776b5586b);
+        
+
+        marker_74495f44ed24a8c630710ea1a660e653.bindPopup(popup_a2749853367507d4dfc85c02fe231fc6)
+        ;
+
+        
+    
+    
+            var marker_fa3217ff719805e3bce743db38474770 = L.marker(
+                [-32.41, 120.25],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_3b4a686f84b1517402470f8a162c0c3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fa3217ff719805e3bce743db38474770.setIcon(icon_3b4a686f84b1517402470f8a162c0c3c);
+        
+    
+        var popup_c92e5bc37c31f077dcfb9735979f273e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13a51600283b2b7dcaa9d8b651eacc44 = $(`<div id="html_13a51600283b2b7dcaa9d8b651eacc44" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Lake Hope HPA Project<br>     <b>Company:</b> Impact Minerals and Playa One Pty Ltd<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Aluminium, Alumina, Bauxite<br>     <b>Cost:</b> $253 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_c92e5bc37c31f077dcfb9735979f273e.setContent(html_13a51600283b2b7dcaa9d8b651eacc44);
+        
+
+        marker_fa3217ff719805e3bce743db38474770.bindPopup(popup_c92e5bc37c31f077dcfb9735979f273e)
+        ;
+
+        
+    
+    
+            var marker_496a0b08fcf758c1b95e2cee7ec612eb = L.marker(
+                [-31.20076, 137.20078],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_a942d59c5c2266fcf3d069b3a35abeb4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_496a0b08fcf758c1b95e2cee7ec612eb.setIcon(icon_a942d59c5c2266fcf3d069b3a35abeb4);
+        
+    
+        var popup_dd4c9aad05f5111ede75ff7536566518 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19847eb7579fac878b50af1bfb3c3665 = $(`<div id="html_19847eb7579fac878b50af1bfb3c3665" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Elizabeth Creek (Phase 1)<br>     <b>Company:</b> Coda Minerals<br>     <b>State:</b> SA<br>     <b>Commodity:</b> Copper<br>     <b>Cost:</b> $306 M<br>     <b>Start Year:</b> 2027.0     </div>`)[0];
+            popup_dd4c9aad05f5111ede75ff7536566518.setContent(html_19847eb7579fac878b50af1bfb3c3665);
+        
+
+        marker_496a0b08fcf758c1b95e2cee7ec612eb.bindPopup(popup_dd4c9aad05f5111ede75ff7536566518)
+        ;
+
+        
+    
+    
+            var marker_6f38864ed59ee7599916b97886fa22a6 = L.marker(
+                [-31.20076, 137.20078],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_d88f7fd63824d0c6000848a0a557f8e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6f38864ed59ee7599916b97886fa22a6.setIcon(icon_d88f7fd63824d0c6000848a0a557f8e7);
+        
+    
+        var popup_a0893713b4cbcb30c87131155ec19855 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62df5db1c3247addd5eb7a2c77cf9359 = $(`<div id="html_62df5db1c3247addd5eb7a2c77cf9359" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Elizabeth Creek (Phase 2)<br>     <b>Company:</b> Coda Minerals<br>     <b>State:</b> SA<br>     <b>Commodity:</b> Copper<br>     <b>Cost:</b> $354 M<br>     <b>Start Year:</b> 2027.0     </div>`)[0];
+            popup_a0893713b4cbcb30c87131155ec19855.setContent(html_62df5db1c3247addd5eb7a2c77cf9359);
+        
+
+        marker_6f38864ed59ee7599916b97886fa22a6.bindPopup(popup_a0893713b4cbcb30c87131155ec19855)
+        ;
+
+        
+    
+    
+            var marker_5a51c1a4866a2d5e7f3b02a74c4c4e30 = L.marker(
+                [-31.729, 140.525],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_5d1c8c54786f2ff0d55a934568c83607 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5a51c1a4866a2d5e7f3b02a74c4c4e30.setIcon(icon_5d1c8c54786f2ff0d55a934568c83607);
+        
+    
+        var popup_482b9fde593b7205cc44d9738a4508b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73fa0f4c42294b640e48c6b42d5d2e70 = $(`<div id="html_73fa0f4c42294b640e48c6b42d5d2e70" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Kalkaroo<br>     <b>Company:</b> Havilah Resources<br>     <b>State:</b> SA<br>     <b>Commodity:</b> Copper<br>     <b>Cost:</b> $332 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_482b9fde593b7205cc44d9738a4508b2.setContent(html_73fa0f4c42294b640e48c6b42d5d2e70);
+        
+
+        marker_5a51c1a4866a2d5e7f3b02a74c4c4e30.bindPopup(popup_482b9fde593b7205cc44d9738a4508b2)
+        ;
+
+        
+    
+    
+            var marker_a0e9fa000fe1be8a7ec7eb47f06717f8 = L.marker(
+                [-20.0056, 133.65],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_db646dec83b7e7ab374bdc157385aeaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a0e9fa000fe1be8a7ec7eb47f06717f8.setIcon(icon_db646dec83b7e7ab374bdc157385aeaf);
+        
+    
+        var popup_af2940ba8a3de2dd7a1f1fb1435c765c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_815b759a5170c2708de862d102f6deda = $(`<div id="html_815b759a5170c2708de862d102f6deda" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Rover<br>     <b>Company:</b> Castile Resources Ltd.<br>     <b>State:</b> NT<br>     <b>Commodity:</b> Copper<br>     <b>Cost:</b> $280 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_af2940ba8a3de2dd7a1f1fb1435c765c.setContent(html_815b759a5170c2708de862d102f6deda);
+        
+
+        marker_a0e9fa000fe1be8a7ec7eb47f06717f8.bindPopup(popup_af2940ba8a3de2dd7a1f1fb1435c765c)
+        ;
+
+        
+    
+    
+            var marker_c7e565274863688dbba4eca32ef62ccf = L.marker(
+                [-17.7833, 138.2667],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_fadd658a459abb5b2a8636a6d97b06bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c7e565274863688dbba4eca32ef62ccf.setIcon(icon_fadd658a459abb5b2a8636a6d97b06bb);
+        
+    
+        var popup_f1dca7823a72f4cac8d40ef0d3e61ae4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a282a9c228ea24db0a12c4b71c330277 = $(`<div id="html_a282a9c228ea24db0a12c4b71c330277" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Walford Creek<br>     <b>Company:</b> Aeon Metals Ltd<br>     <b>State:</b> QLD<br>     <b>Commodity:</b> Copper<br>     <b>Cost:</b> $996 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_f1dca7823a72f4cac8d40ef0d3e61ae4.setContent(html_a282a9c228ea24db0a12c4b71c330277);
+        
+
+        marker_c7e565274863688dbba4eca32ef62ccf.bindPopup(popup_f1dca7823a72f4cac8d40ef0d3e61ae4)
+        ;
+
+        
+    
+    
+            var marker_e6ddfcf6fee051c3c50f90992865a31e = L.marker(
+                [-20.4, 118.5],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_d77608af50b550fc0551349b089b2fc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e6ddfcf6fee051c3c50f90992865a31e.setIcon(icon_d77608af50b550fc0551349b089b2fc2);
+        
+    
+        var popup_3656dad08d073628027f7e95c30f28e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be3b94891a95fe006acf4b4616c198ef = $(`<div id="html_be3b94891a95fe006acf4b4616c198ef" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Boodarie lithium sulphate processing facility (Train 1)<br>     <b>Company:</b> Alkemy Capital Investments<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Lithium<br>     <b>Cost:</b> $485 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_3656dad08d073628027f7e95c30f28e9.setContent(html_be3b94891a95fe006acf4b4616c198ef);
+        
+
+        marker_e6ddfcf6fee051c3c50f90992865a31e.bindPopup(popup_3656dad08d073628027f7e95c30f28e9)
+        ;
+
+        
+    
+    
+            var marker_346d98808bf2aa5e4bb6c7b8c2e40069 = L.marker(
+                [-33.85516, 116.06022],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_69f82355ca3efdef5c5a9cb11c318f23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_346d98808bf2aa5e4bb6c7b8c2e40069.setIcon(icon_69f82355ca3efdef5c5a9cb11c318f23);
+        
+    
+        var popup_de0580d8b17b19a2c390f35a2f6be2f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12ce3ca25607baba806117094c009321 = $(`<div id="html_12ce3ca25607baba806117094c009321" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Greenbushes Expansion CGP3<br>     <b>Company:</b> Talison Lithium (Tianqi/IGO/Albemarle)<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Lithium<br>     <b>Cost:</b> $880 M<br>     <b>Start Year:</b> 2025.0     </div>`)[0];
+            popup_de0580d8b17b19a2c390f35a2f6be2f0.setContent(html_12ce3ca25607baba806117094c009321);
+        
+
+        marker_346d98808bf2aa5e4bb6c7b8c2e40069.bindPopup(popup_de0580d8b17b19a2c390f35a2f6be2f0)
+        ;
+
+        
+    
+    
+            var marker_5a38467bdf6a6c2b66017d0bd28fb70f = L.marker(
+                [-33.85516, 116.06022],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_d60832f739e6df12e979da8c44ffab21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5a38467bdf6a6c2b66017d0bd28fb70f.setIcon(icon_d60832f739e6df12e979da8c44ffab21);
+        
+    
+        var popup_1a6628e739f925aa45692c69c18daac6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9c4643bd93c14da31adfb17eb198b65 = $(`<div id="html_b9c4643bd93c14da31adfb17eb198b65" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Greenbushes Expansion CGP4<br>     <b>Company:</b> Talison Lithium (Tianqi/IGO/Albemarle)<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Lithium<br>     <b>Cost:</b> $537 M<br>     <b>Start Year:</b> 2027.0     </div>`)[0];
+            popup_1a6628e739f925aa45692c69c18daac6.setContent(html_b9c4643bd93c14da31adfb17eb198b65);
+        
+
+        marker_5a38467bdf6a6c2b66017d0bd28fb70f.bindPopup(popup_1a6628e739f925aa45692c69c18daac6)
+        ;
+
+        
+    
+    
+            var marker_d52b6677e598b59989e4cbb0b3f548c5 = L.marker(
+                [-27.476, 120.5557],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_3370cca1ed5a2a44968a5689040886b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d52b6677e598b59989e4cbb0b3f548c5.setIcon(icon_3370cca1ed5a2a44968a5689040886b9);
+        
+    
+        var popup_180da65c5db5833f7fad9c11067e2041 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03c1137e2a0f8672275f33713a50ebae = $(`<div id="html_03c1137e2a0f8672275f33713a50ebae" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Kathleen Valley<br>     <b>Company:</b> Liontown Resources Ltd<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Lithium<br>     <b>Cost:</b> $951 M<br>     <b>Start Year:</b> 2024.0     </div>`)[0];
+            popup_180da65c5db5833f7fad9c11067e2041.setContent(html_03c1137e2a0f8672275f33713a50ebae);
+        
+
+        marker_d52b6677e598b59989e4cbb0b3f548c5.bindPopup(popup_180da65c5db5833f7fad9c11067e2041)
+        ;
+
+        
+    
+    
+            var marker_35310a170dc454c9fc8ed9f961267d63 = L.marker(
+                [-27.476, 120.5557],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_12aa9a0879b084f207774bf010173888 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_35310a170dc454c9fc8ed9f961267d63.setIcon(icon_12aa9a0879b084f207774bf010173888);
+        
+    
+        var popup_2e7df78e69c97cdf6b691ea65eb15d7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a09b0fb4f78b7c0f0d8e69a45dffd4ac = $(`<div id="html_a09b0fb4f78b7c0f0d8e69a45dffd4ac" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Kathleen Valley Expansion<br>     <b>Company:</b> Liontown Resources Ltd<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Lithium<br>     <b>Cost:</b> $66 M<br>     <b>Start Year:</b> 2027.0     </div>`)[0];
+            popup_2e7df78e69c97cdf6b691ea65eb15d7e.setContent(html_a09b0fb4f78b7c0f0d8e69a45dffd4ac);
+        
+
+        marker_35310a170dc454c9fc8ed9f961267d63.bindPopup(popup_2e7df78e69c97cdf6b691ea65eb15d7e)
+        ;
+
+        
+    
+    
+            var marker_307f7ef8116eb24954558c15ecd68f43 = L.marker(
+                [-27.476, 120.5557],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_1a74060bf6147ec1ee4d99e6c52081d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_307f7ef8116eb24954558c15ecd68f43.setIcon(icon_1a74060bf6147ec1ee4d99e6c52081d8);
+        
+    
+        var popup_5cbfa60f1e6928b237d27e66fe300c7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2be2aa47501124b9ac5284754e2ae03b = $(`<div id="html_2be2aa47501124b9ac5284754e2ae03b" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Kathleen Valley Refinery<br>     <b>Company:</b> Liontown Resources Ltd<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Lithium<br>     <b>Cost:</b> $725 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_5cbfa60f1e6928b237d27e66fe300c7a.setContent(html_2be2aa47501124b9ac5284754e2ae03b);
+        
+
+        marker_307f7ef8116eb24954558c15ecd68f43.bindPopup(popup_5cbfa60f1e6928b237d27e66fe300c7a)
+        ;
+
+        
+    
+    
+            var marker_085a0af513ec41f296237fc38b6f43af = L.marker(
+                [-32.2202, 115.7708],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_95b358118989033cd49fd2490ea9029c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_085a0af513ec41f296237fc38b6f43af.setIcon(icon_95b358118989033cd49fd2490ea9029c);
+        
+    
+        var popup_b0699db71ea6d1bbfa8858f6d940f663 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9dd49463febcaf034282db18cf5e469 = $(`<div id="html_e9dd49463febcaf034282db18cf5e469" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Kwinana Lithium Refinery (Wes/SQM)<br>     <b>Company:</b> Covalent Lithium (Wesfarmers / SQM)<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Lithium<br>     <b>Cost:</b> $1,250 M<br>     <b>Start Year:</b> 2025.0     </div>`)[0];
+            popup_b0699db71ea6d1bbfa8858f6d940f663.setContent(html_e9dd49463febcaf034282db18cf5e469);
+        
+
+        marker_085a0af513ec41f296237fc38b6f43af.bindPopup(popup_b0699db71ea6d1bbfa8858f6d940f663)
+        ;
+
+        
+    
+    
+            var marker_a6b6f326d3f04825ee8ca04c2d224ce1 = L.marker(
+                [-30.86739, 122.52928],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_00a850d2c2078fe3198c382c9dda3f49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a6b6f326d3f04825ee8ca04c2d224ce1.setIcon(icon_00a850d2c2078fe3198c382c9dda3f49);
+        
+    
+        var popup_cdd265c5c0e6ff69c42a028b1c82625b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_739e6a468125c5eecab537a4da18dca1 = $(`<div id="html_739e6a468125c5eecab537a4da18dca1" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Manna Lithium Project<br>     <b>Company:</b> Global Lithium Resources<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Lithium<br>     <b>Cost:</b> $435 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_cdd265c5c0e6ff69c42a028b1c82625b.setContent(html_739e6a468125c5eecab537a4da18dca1);
+        
+
+        marker_a6b6f326d3f04825ee8ca04c2d224ce1.bindPopup(popup_cdd265c5c0e6ff69c42a028b1c82625b)
+        ;
+
+        
+    
+    
+            var marker_bf8a2fc6133732589497af436aeb3cc0 = L.marker(
+                [-32.08393, 119.74667],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_075d6d347f9646fd5d4d121e7e8952dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bf8a2fc6133732589497af436aeb3cc0.setIcon(icon_075d6d347f9646fd5d4d121e7e8952dc);
+        
+    
+        var popup_f1c4f1c27621f47d4ee361d6e23b2698 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d2f259610a80a1714435d02f8fe9f2a = $(`<div id="html_2d2f259610a80a1714435d02f8fe9f2a" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Mount Holland Lithium Mine<br>     <b>Company:</b> Covalent Lithium (Wesfarmers / SQM)<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Lithium<br>     <b>Cost:</b> $1,250 M<br>     <b>Start Year:</b> 2024.0     </div>`)[0];
+            popup_f1c4f1c27621f47d4ee361d6e23b2698.setContent(html_2d2f259610a80a1714435d02f8fe9f2a);
+        
+
+        marker_bf8a2fc6133732589497af436aeb3cc0.bindPopup(popup_f1c4f1c27621f47d4ee361d6e23b2698)
+        ;
+
+        
+    
+    
+            var marker_aea36beff6457afe4f83b7ddf5cd877a = L.marker(
+                [-20.9924, 118.9197],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_00797070677467fc476e5dd53d0871f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_aea36beff6457afe4f83b7ddf5cd877a.setIcon(icon_00797070677467fc476e5dd53d0871f1);
+        
+    
+        var popup_30aa057542e463f7b6d337574d67e7e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0416830eb4f4eea484dc0d322a779cc2 = $(`<div id="html_0416830eb4f4eea484dc0d322a779cc2" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Pilgangoora (P1000)<br>     <b>Company:</b> Pilbara Minerals<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Lithium<br>     <b>Cost:</b> $560 M<br>     <b>Start Year:</b> 2025.0     </div>`)[0];
+            popup_30aa057542e463f7b6d337574d67e7e8.setContent(html_0416830eb4f4eea484dc0d322a779cc2);
+        
+
+        marker_aea36beff6457afe4f83b7ddf5cd877a.bindPopup(popup_30aa057542e463f7b6d337574d67e7e8)
+        ;
+
+        
+    
+    
+            var marker_207626c54fcf3e2cd81896acbc58629d = L.marker(
+                [-20.9924, 118.9197],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_fa3d6d984a01f1c3b63bcde2cbf65126 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_207626c54fcf3e2cd81896acbc58629d.setIcon(icon_fa3d6d984a01f1c3b63bcde2cbf65126);
+        
+    
+        var popup_2030f4fcae1387345df42c8df3e9ab24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_471aef448386082f3bd91357bfd10f56 = $(`<div id="html_471aef448386082f3bd91357bfd10f56" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Pilgangoora (P2000)<br>     <b>Company:</b> Pilbara Minerals<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Lithium<br>     <b>Cost:</b> $1,200 M<br>     <b>Start Year:</b> 2028.0     </div>`)[0];
+            popup_2030f4fcae1387345df42c8df3e9ab24.setContent(html_471aef448386082f3bd91357bfd10f56);
+        
+
+        marker_207626c54fcf3e2cd81896acbc58629d.bindPopup(popup_2030f4fcae1387345df42c8df3e9ab24)
+        ;
+
+        
+    
+    
+            var marker_c7f143907839f09abc473c613e02badb = L.marker(
+                [-20.9924, 118.9197],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_0e19e95f6b488dd036994846118dcbdc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c7f143907839f09abc473c613e02badb.setIcon(icon_0e19e95f6b488dd036994846118dcbdc);
+        
+    
+        var popup_afa67761080e5f1fb647dd47b3e79492 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_133a23a3e7bed9d20ab148d549a97ae1 = $(`<div id="html_133a23a3e7bed9d20ab148d549a97ae1" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Pilgangoora Lithium Phosphate Demonstration Refinery<br>     <b>Company:</b> Pilbara Minerals/Calix JV<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Lithium<br>     <b>Cost:</b> $105 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_afa67761080e5f1fb647dd47b3e79492.setContent(html_133a23a3e7bed9d20ab148d549a97ae1);
+        
+
+        marker_c7f143907839f09abc473c613e02badb.bindPopup(popup_afa67761080e5f1fb647dd47b3e79492)
+        ;
+
+        
+    
+    
+            var marker_53473e29fb3f21f67317b78d16c178e7 = L.marker(
+                [-20.9924, 118.9197],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_7abc90f728fd731ca868f92f49c97c6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_53473e29fb3f21f67317b78d16c178e7.setIcon(icon_7abc90f728fd731ca868f92f49c97c6d);
+        
+    
+        var popup_3ade9d172f3d75c524a08ec50b90faf8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edfc830188da6045482b521e36216ee6 = $(`<div id="html_edfc830188da6045482b521e36216ee6" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Pilgangoora P680<br>     <b>Company:</b> Pilbara Minerals<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Lithium<br>     <b>Cost:</b> $404 M<br>     <b>Start Year:</b> 2024.0     </div>`)[0];
+            popup_3ade9d172f3d75c524a08ec50b90faf8.setContent(html_edfc830188da6045482b521e36216ee6);
+        
+
+        marker_53473e29fb3f21f67317b78d16c178e7.bindPopup(popup_3ade9d172f3d75c524a08ec50b90faf8)
+        ;
+
+        
+    
+    
+            var marker_b28273eac4fafb000ac4e343c458cab3 = L.marker(
+                [-31.749338, 121.603979],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_5565760f6bfc036647a4be47d6e03c18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b28273eac4fafb000ac4e343c458cab3.setIcon(icon_5565760f6bfc036647a4be47d6e03c18);
+        
+    
+        var popup_f36fa2a896c20606ebe68fa3da51d58e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_888c43475ecf2154e1f8054ec731ab49 = $(`<div id="html_888c43475ecf2154e1f8054ec731ab49" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Pioneer Dome<br>     <b>Company:</b> Develop Global Limited<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Lithium<br>     <b>Cost:</b> $285 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_f36fa2a896c20606ebe68fa3da51d58e.setContent(html_888c43475ecf2154e1f8054ec731ab49);
+        
+
+        marker_b28273eac4fafb000ac4e343c458cab3.bindPopup(popup_f36fa2a896c20606ebe68fa3da51d58e)
+        ;
+
+        
+    
+    
+            var marker_79a1382b30992c18b806239d10ac40c8 = L.marker(
+                [-30.3934, 121.652],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_f68338c5b23a43898bff62fd28f15d08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_79a1382b30992c18b806239d10ac40c8.setIcon(icon_f68338c5b23a43898bff62fd28f15d08);
+        
+    
+        var popup_c6df72a44f60f9dfd94d14d401e2ad5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a70dceebcf598479011d0f28ef0ab07c = $(`<div id="html_a70dceebcf598479011d0f28ef0ab07c" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Black Swan Restart<br>     <b>Company:</b> Poseidon Nickel Limited<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Nickel, cobalt<br>     <b>Cost:</b> $50 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_c6df72a44f60f9dfd94d14d401e2ad5f.setContent(html_a70dceebcf598479011d0f28ef0ab07c);
+        
+
+        marker_79a1382b30992c18b806239d10ac40c8.bindPopup(popup_c6df72a44f60f9dfd94d14d401e2ad5f)
+        ;
+
+        
+    
+    
+            var marker_b0ed8af3f9ed92b48a41dec6f464776e = L.marker(
+                [-32.091, 141.1967],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_8c8a205b2e30d60338ddc341f2219961 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b0ed8af3f9ed92b48a41dec6f464776e.setIcon(icon_8c8a205b2e30d60338ddc341f2219961);
+        
+    
+        var popup_c2f32b5773734069cefebc798184567f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08b122f500dfa0e35f42468b891fba2f = $(`<div id="html_08b122f500dfa0e35f42468b891fba2f" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Broken Hill Cobalt Project<br>     <b>Company:</b> Cobalt Blue Holdings<br>     <b>State:</b> NSW<br>     <b>Commodity:</b> Nickel, cobalt<br>     <b>Cost:</b> $560 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_c2f32b5773734069cefebc798184567f.setContent(html_08b122f500dfa0e35f42468b891fba2f);
+        
+
+        marker_b0ed8af3f9ed92b48a41dec6f464776e.bindPopup(popup_c2f32b5773734069cefebc798184567f)
+        ;
+
+        
+    
+    
+            var marker_c465846fae41519584108079d20c9b5e = L.marker(
+                [-28.83, 122.86],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_312d2711d4773a7a3bccd327b3b51fc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c465846fae41519584108079d20c9b5e.setIcon(icon_312d2711d4773a7a3bccd327b3b51fc9);
+        
+    
+        var popup_363ed05f3f436b6e37aeec4b4910d69f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4c5499808dd0c55f0810a4507d18d84 = $(`<div id="html_c4c5499808dd0c55f0810a4507d18d84" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Coglia Nickel-Cobalt Project<br>     <b>Company:</b> Panther Metals<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Nickel, cobalt<br>     <b>Cost:</b> $377 M<br>     <b>Start Year:</b> 2029.0     </div>`)[0];
+            popup_363ed05f3f436b6e37aeec4b4910d69f.setContent(html_c4c5499808dd0c55f0810a4507d18d84);
+        
+
+        marker_c465846fae41519584108079d20c9b5e.bindPopup(popup_363ed05f3f436b6e37aeec4b4910d69f)
+        ;
+
+        
+    
+    
+            var marker_51f23d3f60c141425a63640376770603 = L.marker(
+                [-27.600285, 120.576324],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_601d9882af5988cab4245ae5ffc97de6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_51f23d3f60c141425a63640376770603.setIcon(icon_601d9882af5988cab4245ae5ffc97de6);
+        
+    
+        var popup_3f09913e1426f7f72ce4c3cbfc006dd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18e8945878bfbd409d0efae9f2c72f84 = $(`<div id="html_18e8945878bfbd409d0efae9f2c72f84" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Cosmos<br>     <b>Company:</b> IGO Limited<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Nickel, cobalt<br>     <b>Cost:</b> $825 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_3f09913e1426f7f72ce4c3cbfc006dd3.setContent(html_18e8945878bfbd409d0efae9f2c72f84);
+        
+
+        marker_51f23d3f60c141425a63640376770603.bindPopup(popup_3f09913e1426f7f72ce4c3cbfc006dd3)
+        ;
+
+        
+    
+    
+            var marker_ef88ae6f5d469eeea19c3bca8c4fbe1b = L.marker(
+                [-26.8056, 121.5516],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_1692de98c042f9e94a93e998b480eeb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ef88ae6f5d469eeea19c3bca8c4fbe1b.setIcon(icon_1692de98c042f9e94a93e998b480eeb7);
+        
+    
+        var popup_a14a3206574991a74e092c3cd0d0d521 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0cb7824c0c9a919c02fee5a5165306f8 = $(`<div id="html_0cb7824c0c9a919c02fee5a5165306f8" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Fisher East<br>     <b>Company:</b> Kedalion Nickel Pty Ltd<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Nickel, cobalt<br>     <b>Cost:</b> $105 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_a14a3206574991a74e092c3cd0d0d521.setContent(html_0cb7824c0c9a919c02fee5a5165306f8);
+        
+
+        marker_ef88ae6f5d469eeea19c3bca8c4fbe1b.bindPopup(popup_a14a3206574991a74e092c3cd0d0d521)
+        ;
+
+        
+    
+    
+            var marker_e091ff5c0210b0f6ddcd60a00292b9b8 = L.marker(
+                [-31.52, 116.21],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_e20de7a6d79349b54c39e5d99400cfd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e091ff5c0210b0f6ddcd60a00292b9b8.setIcon(icon_e20de7a6d79349b54c39e5d99400cfd6);
+        
+    
+        var popup_ab3278fc534076ec4d4e1297c1e0fa68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9338136fa230bb842e20e6e3a9799f5a = $(`<div id="html_9338136fa230bb842e20e6e3a9799f5a" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Gonneville Project<br>     <b>Company:</b> Chalice Mining Limited<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Nickel, cobalt<br>     <b>Cost:</b> $1,600 M<br>     <b>Start Year:</b> 2029.0     </div>`)[0];
+            popup_ab3278fc534076ec4d4e1297c1e0fa68.setContent(html_9338136fa230bb842e20e6e3a9799f5a);
+        
+
+        marker_e091ff5c0210b0f6ddcd60a00292b9b8.bindPopup(popup_ab3278fc534076ec4d4e1297c1e0fa68)
+        ;
+
+        
+    
+    
+            var marker_2e14b066a4c61eaea009031cc4a5b046 = L.marker(
+                [-30.0327, 121.1687],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_89f0e713e83c9716dd7f213ce9d9f5fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2e14b066a4c61eaea009031cc4a5b046.setIcon(icon_89f0e713e83c9716dd7f213ce9d9f5fa);
+        
+    
+        var popup_8be40c927691267074721a066ffddcb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5456a0e8826b8d541ea88fed7028940c = $(`<div id="html_5456a0e8826b8d541ea88fed7028940c" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Kalgoorlie Nickel Project - Goongarrie Hub<br>     <b>Company:</b> Ardea<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Nickel, cobalt<br>     <b>Cost:</b> $3,117 M<br>     <b>Start Year:</b> 2029.0     </div>`)[0];
+            popup_8be40c927691267074721a066ffddcb9.setContent(html_5456a0e8826b8d541ea88fed7028940c);
+        
+
+        marker_2e14b066a4c61eaea009031cc4a5b046.bindPopup(popup_8be40c927691267074721a066ffddcb9)
+        ;
+
+        
+    
+    
+            var marker_a82433ee05980dd3ef31533b74c184d9 = L.marker(
+                [-32.1019, 121.6478],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_cdde8aaca468cb805655ea9e0a85cbab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a82433ee05980dd3ef31533b74c184d9.setIcon(icon_cdde8aaca468cb805655ea9e0a85cbab);
+        
+    
+        var popup_ba3c748b6912d982d47efef920ab23fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c71777622f3c7b6fb3df4f58c32ac99e = $(`<div id="html_c71777622f3c7b6fb3df4f58c32ac99e" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Mt Thirsty<br>     <b>Company:</b> Greenstone Resources/ Conico Limited<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Nickel, cobalt<br>     <b>Cost:</b> $371 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_ba3c748b6912d982d47efef920ab23fb.setContent(html_c71777622f3c7b6fb3df4f58c32ac99e);
+        
+
+        marker_a82433ee05980dd3ef31533b74c184d9.bindPopup(popup_ba3c748b6912d982d47efef920ab23fb)
+        ;
+
+        
+    
+    
+            var marker_c16656e8e570fa87db2c183694027d9d = L.marker(
+                [-28.68, 121.72],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_45348f0ceb711afefc7213f84776db19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c16656e8e570fa87db2c183694027d9d.setIcon(icon_45348f0ceb711afefc7213f84776db19);
+        
+    
+        var popup_49ed46ccb9dee5c66412f3ddc765f08f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed9eb046104e31b828d00ab1833fc35d = $(`<div id="html_ed9eb046104e31b828d00ab1833fc35d" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> NiWest Nickel-Cobalt Project<br>     <b>Company:</b> Alliance Nickel Limited<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Nickel, cobalt<br>     <b>Cost:</b> $1,261 M<br>     <b>Start Year:</b> 2027.0     </div>`)[0];
+            popup_49ed46ccb9dee5c66412f3ddc765f08f.setContent(html_ed9eb046104e31b828d00ab1833fc35d);
+        
+
+        marker_c16656e8e570fa87db2c183694027d9d.bindPopup(popup_49ed46ccb9dee5c66412f3ddc765f08f)
+        ;
+
+        
+    
+    
+            var marker_a071bb64cd357c90a9cf817df234df7d = L.marker(
+                [-18.9721, 144.9267],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_1f155ec2c8fcaad5a8243d7414eaa639 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a071bb64cd357c90a9cf817df234df7d.setIcon(icon_1f155ec2c8fcaad5a8243d7414eaa639);
+        
+    
+        var popup_7330cb71bd452717511d6fbe447fcaaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f07f2aaa65ada32714880ff2abdfa51 = $(`<div id="html_9f07f2aaa65ada32714880ff2abdfa51" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Sconi<br>     <b>Company:</b> Australian Mines Limited<br>     <b>State:</b> QLD<br>     <b>Commodity:</b> Nickel, cobalt<br>     <b>Cost:</b> $1,260 M<br>     <b>Start Year:</b> 2028.0     </div>`)[0];
+            popup_7330cb71bd452717511d6fbe447fcaaf.setContent(html_9f07f2aaa65ada32714880ff2abdfa51);
+        
+
+        marker_a071bb64cd357c90a9cf817df234df7d.bindPopup(popup_7330cb71bd452717511d6fbe447fcaaf)
+        ;
+
+        
+    
+    
+            var marker_275c940dc7abbd43938f92b4c81f5446 = L.marker(
+                [-32.7566, 147.4195],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_5aad10cf03816eee6228e0b0df82cd41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_275c940dc7abbd43938f92b4c81f5446.setIcon(icon_5aad10cf03816eee6228e0b0df82cd41);
+        
+    
+        var popup_5847d97afff16b156470abbea507601d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1451641bda611c24857e13f8952d1e72 = $(`<div id="html_1451641bda611c24857e13f8952d1e72" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Sunrise Project<br>     <b>Company:</b> Sunrise Energy Metals Limited<br>     <b>State:</b> NSW<br>     <b>Commodity:</b> Nickel, cobalt<br>     <b>Cost:</b> $2,368 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_5847d97afff16b156470abbea507601d.setContent(html_1451641bda611c24857e13f8952d1e72);
+        
+
+        marker_275c940dc7abbd43938f92b4c81f5446.bindPopup(popup_5847d97afff16b156470abbea507601d)
+        ;
+
+        
+    
+    
+            var marker_fe27f6f6da106a422064a006d2745033 = L.marker(
+                [-19.61, 146.82],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_4834bd2ae702a97a80671de18bf24eaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fe27f6f6da106a422064a006d2745033.setIcon(icon_4834bd2ae702a97a80671de18bf24eaf);
+        
+    
+        var popup_e5fe40687aaa63c4363d8ff49217efd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_834f99f899b31accc0c6ccb77a7edfc8 = $(`<div id="html_834f99f899b31accc0c6ccb77a7edfc8" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Townsville Energy Chemical Hub - Stage 1<br>     <b>Company:</b> Queensland Pacific Metals Pty Ltd<br>     <b>State:</b> QLD<br>     <b>Commodity:</b> Nickel, cobalt<br>     <b>Cost:</b> $2,100 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_e5fe40687aaa63c4363d8ff49217efd2.setContent(html_834f99f899b31accc0c6ccb77a7edfc8);
+        
+
+        marker_fe27f6f6da106a422064a006d2745033.bindPopup(popup_e5fe40687aaa63c4363d8ff49217efd2)
+        ;
+
+        
+    
+    
+            var marker_78a3931c42585187cf20f26d551a7341 = L.marker(
+                [-19.61, 146.82],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_c099e476245d602cc801ba55ec81b377 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_78a3931c42585187cf20f26d551a7341.setIcon(icon_c099e476245d602cc801ba55ec81b377);
+        
+    
+        var popup_92d80c1e5d8fac831089aed9a39b31bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3be001edd49b1faf65652b8c32ce36c0 = $(`<div id="html_3be001edd49b1faf65652b8c32ce36c0" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Townsville Energy Chemical Hub - Stage 2<br>     <b>Company:</b> Queensland Pacific Metals Pty Ltd<br>     <b>State:</b> QLD<br>     <b>Commodity:</b> Nickel, cobalt<br>     <b>Cost:</b> $1,750 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_92d80c1e5d8fac831089aed9a39b31bd.setContent(html_3be001edd49b1faf65652b8c32ce36c0);
+        
+
+        marker_78a3931c42585187cf20f26d551a7341.bindPopup(popup_92d80c1e5d8fac831089aed9a39b31bd)
+        ;
+
+        
+    
+    
+            var marker_1e1149910c0bffd5bb3a42499b218aaf = L.marker(
+                [-26.08, 127.78],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_d693c22b291c7be92a2fc2406d189d97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1e1149910c0bffd5bb3a42499b218aaf.setIcon(icon_d693c22b291c7be92a2fc2406d189d97);
+        
+    
+        var popup_b386e77f37509c42eceeaa71b8b4126a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a2328f19451a79141bf2dd59dff26ae = $(`<div id="html_1a2328f19451a79141bf2dd59dff26ae" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> West Musgrave Project<br>     <b>Company:</b> BHP<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Nickel, cobalt<br>     <b>Cost:</b> $1,600 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_b386e77f37509c42eceeaa71b8b4126a.setContent(html_1a2328f19451a79141bf2dd59dff26ae);
+        
+
+        marker_1e1149910c0bffd5bb3a42499b218aaf.bindPopup(popup_b386e77f37509c42eceeaa71b8b4126a)
+        ;
+
+        
+    
+    
+            var marker_dd3f4b5ff0a1b756c5956c11a2031182 = L.marker(
+                [-26.0396, 138.9393],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_999be4ecda7db1b89fec36d50ad17051 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dd3f4b5ff0a1b756c5956c11a2031182.setIcon(icon_999be4ecda7db1b89fec36d50ad17051);
+        
+    
+        var popup_474a8374dc2a9ba30220e07fdf13525a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de5413a50ec4824fd9c84d63e93c4f9a = $(`<div id="html_de5413a50ec4824fd9c84d63e93c4f9a" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Wingellina<br>     <b>Company:</b> Nico Resources Limited<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Nickel, cobalt<br>     <b>Cost:</b> $2,900 M<br>     <b>Start Year:</b> 2027.0     </div>`)[0];
+            popup_474a8374dc2a9ba30220e07fdf13525a.setContent(html_de5413a50ec4824fd9c84d63e93c4f9a);
+        
+
+        marker_dd3f4b5ff0a1b756c5956c11a2031182.bindPopup(popup_474a8374dc2a9ba30220e07fdf13525a)
+        ;
+
+        
+    
+    
+            var marker_2bd6ecf48de3f747d30465c8f07980ea = L.marker(
+                [-29.51, 115.11],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_dbd8f92512a20b3ec9c0f83d58783eed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2bd6ecf48de3f747d30465c8f07980ea.setIcon(icon_dbd8f92512a20b3ec9c0f83d58783eed);
+        
+    
+        var popup_e4c250289d84692479fdb255094df95f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15c93b2610e657fb13ab62037d0cee7c = $(`<div id="html_15c93b2610e657fb13ab62037d0cee7c" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Arrowsmith North<br>     <b>Company:</b> VRX Silica Limited<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $67 M<br>     <b>Start Year:</b> 2025.0     </div>`)[0];
+            popup_e4c250289d84692479fdb255094df95f.setContent(html_15c93b2610e657fb13ab62037d0cee7c);
+        
+
+        marker_2bd6ecf48de3f747d30465c8f07980ea.bindPopup(popup_e4c250289d84692479fdb255094df95f)
+        ;
+
+        
+    
+    
+            var marker_177ef3bf736c5027045c6ef66ebdf89c = L.marker(
+                [-26.9394, 118.637],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_06f7d7043fb82b60387868f6ea19cdb5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_177ef3bf736c5027045c6ef66ebdf89c.setIcon(icon_06f7d7043fb82b60387868f6ea19cdb5);
+        
+    
+        var popup_26e82a7cb680863eac280abe0fbc7284 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b7bf5c124113c5565425b031da86fb7 = $(`<div id="html_5b7bf5c124113c5565425b031da86fb7" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Australian Vanadium Project<br>     <b>Company:</b> Australian Vanadium Ltd<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $604 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_26e82a7cb680863eac280abe0fbc7284.setContent(html_5b7bf5c124113c5565425b031da86fb7);
+        
+
+        marker_177ef3bf736c5027045c6ef66ebdf89c.bindPopup(popup_26e82a7cb680863eac280abe0fbc7284)
+        ;
+
+        
+    
+    
+            var marker_fb6ed4ad6018aba1ea6a2f2b46519f58 = L.marker(
+                [-34.0495, 143.341],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_eb399bbf617f8926f704be5f25b945cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fb6ed4ad6018aba1ea6a2f2b46519f58.setIcon(icon_eb399bbf617f8926f704be5f25b945cb);
+        
+    
+        var popup_77fab8a64c4305967c102b10747a1b09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_087552ad84ef44705b1ad7d0d06be2ae = $(`<div id="html_087552ad84ef44705b1ad7d0d06be2ae" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Balranald Project<br>     <b>Company:</b> Iluka Resources<br>     <b>State:</b> NSW<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $480 M<br>     <b>Start Year:</b> 2025.0     </div>`)[0];
+            popup_77fab8a64c4305967c102b10747a1b09.setContent(html_087552ad84ef44705b1ad7d0d06be2ae);
+        
+
+        marker_fb6ed4ad6018aba1ea6a2f2b46519f58.bindPopup(popup_77fab8a64c4305967c102b10747a1b09)
+        ;
+
+        
+    
+    
+            var marker_6585778996dbd2bdd0c7dfc306b1d1d3 = L.marker(
+                [-27.406702, 119.111609],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_7e246788868edf7def037ed119e2560c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6585778996dbd2bdd0c7dfc306b1d1d3.setIcon(icon_7e246788868edf7def037ed119e2560c);
+        
+    
+        var popup_84cfe442180c49aa5a739fd783d84810 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d3a5b8787bfc0cbd6e72192a376bb67 = $(`<div id="html_3d3a5b8787bfc0cbd6e72192a376bb67" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Barrambie Titanium Project - DSO<br>     <b>Company:</b> Neometals<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $78 M<br>     <b>Start Year:</b> 2025.0     </div>`)[0];
+            popup_84cfe442180c49aa5a739fd783d84810.setContent(html_3d3a5b8787bfc0cbd6e72192a376bb67);
+        
+
+        marker_6585778996dbd2bdd0c7dfc306b1d1d3.bindPopup(popup_84cfe442180c49aa5a739fd783d84810)
+        ;
+
+        
+    
+    
+            var marker_dd53a6a54c71fa5d51bb9f6d8936a47f = L.marker(
+                [-27.406702, 119.111609],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_bb9ca7c0f59ba6fd13e12cfa6a182c21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dd53a6a54c71fa5d51bb9f6d8936a47f.setIcon(icon_bb9ca7c0f59ba6fd13e12cfa6a182c21);
+        
+    
+        var popup_a000f42366e85d22958d032b9bb28bb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa743afbd02949a77c1c1dd89e2b4674 = $(`<div id="html_fa743afbd02949a77c1c1dd89e2b4674" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Barrambie Titanium Project - Mixed Gravity Concentrate Project<br>     <b>Company:</b> Neometals<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $137 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_a000f42366e85d22958d032b9bb28bb1.setContent(html_fa743afbd02949a77c1c1dd89e2b4674);
+        
+
+        marker_dd53a6a54c71fa5d51bb9f6d8936a47f.bindPopup(popup_a000f42366e85d22958d032b9bb28bb1)
+        ;
+
+        
+    
+    
+            var marker_aacc24e106b15d8a26b659d7b769f3b5 = L.marker(
+                [-30.538165, 115.248896],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_ac60ee8de948a836f2dca767a600784a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_aacc24e106b15d8a26b659d7b769f3b5.setIcon(icon_ac60ee8de948a836f2dca767a600784a);
+        
+    
+        var popup_9d65b1668ce18ed0a81abfaad5f5f759 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f72ef5d018dd4dcb3ac9eb482bf283a = $(`<div id="html_3f72ef5d018dd4dcb3ac9eb482bf283a" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Bidaminna Mineral Sands Project<br>     <b>Company:</b> Image Resources<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $194 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_9d65b1668ce18ed0a81abfaad5f5f759.setContent(html_3f72ef5d018dd4dcb3ac9eb482bf283a);
+        
+
+        marker_aacc24e106b15d8a26b659d7b769f3b5.bindPopup(popup_9d65b1668ce18ed0a81abfaad5f5f759)
+        ;
+
+        
+    
+    
+            var marker_43ed11b58207ef84ea306610133cbebc = L.marker(
+                [-34.26, 115.41],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_98e2d675f252a0591beb17278631f740 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_43ed11b58207ef84ea306610133cbebc.setIcon(icon_98e2d675f252a0591beb17278631f740);
+        
+    
+        var popup_23e144359750cadd8b624d98bd511b9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5450162c2b1c9da724689fb68ecf8c02 = $(`<div id="html_5450162c2b1c9da724689fb68ecf8c02" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Boonanarring Mineral Separation Plant<br>     <b>Company:</b> Image Resources<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $55 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_23e144359750cadd8b624d98bd511b9b.setContent(html_5450162c2b1c9da724689fb68ecf8c02);
+        
+
+        marker_43ed11b58207ef84ea306610133cbebc.bindPopup(popup_23e144359750cadd8b624d98bd511b9b)
+        ;
+
+        
+    
+    
+            var marker_86bf06fc3346e4c5c9964f7d572ead0f = L.marker(
+                [-18.8595, 128.9398],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_613ee0017a8eb030c0562772ea65cb02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_86bf06fc3346e4c5c9964f7d572ead0f.setIcon(icon_613ee0017a8eb030c0562772ea65cb02);
+        
+    
+        var popup_5dcb4b58fcdcccaa2f98bf4b1d29750a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf0fb089534af4706fa436ca427313c1 = $(`<div id="html_cf0fb089534af4706fa436ca427313c1" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Browns Range<br>     <b>Company:</b> Northern Minerals<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $500 M<br>     <b>Start Year:</b> 2027.0     </div>`)[0];
+            popup_5dcb4b58fcdcccaa2f98bf4b1d29750a.setContent(html_cf0fb089534af4706fa436ca427313c1);
+        
+
+        marker_86bf06fc3346e4c5c9964f7d572ead0f.bindPopup(popup_5dcb4b58fcdcccaa2f98bf4b1d29750a)
+        ;
+
+        
+    
+    
+            var marker_a83b041c5a9ef2cf5b09df382876037f = L.marker(
+                [-20.3, 145.4],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_967cef48e02ceacb6b23fe1c88ce8de8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a83b041c5a9ef2cf5b09df382876037f.setIcon(icon_967cef48e02ceacb6b23fe1c88ce8de8);
+        
+    
+        var popup_2baa19a0d4bb8ad2cbf18dc95784e9f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43f6a3ba3e712e7cb0dcf994dfb8e4f7 = $(`<div id="html_43f6a3ba3e712e7cb0dcf994dfb8e4f7" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Brumby-Clydesdale Project - Stage 3<br>     <b>Company:</b> InterGroup Mining Limited<br>     <b>State:</b> QLD<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $300 M<br>     <b>Start Year:</b> 2028.0     </div>`)[0];
+            popup_2baa19a0d4bb8ad2cbf18dc95784e9f5.setContent(html_43f6a3ba3e712e7cb0dcf994dfb8e4f7);
+        
+
+        marker_a83b041c5a9ef2cf5b09df382876037f.bindPopup(popup_2baa19a0d4bb8ad2cbf18dc95784e9f5)
+        ;
+
+        
+    
+    
+            var marker_bde99425f7b7a2f0b92b679ac868d32e = L.marker(
+                [-20.3, 145.4],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_d498065a4c170314d015728aac86a0ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bde99425f7b7a2f0b92b679ac868d32e.setIcon(icon_d498065a4c170314d015728aac86a0ee);
+        
+    
+        var popup_5f3c213d52ac16cdc182f3dc80a6fb0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de12045bc5afcb3952555da9e26cd374 = $(`<div id="html_de12045bc5afcb3952555da9e26cd374" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Brumby-Clydesdale Project - Stage 4<br>     <b>Company:</b> InterGroup Mining Limited<br>     <b>State:</b> QLD<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $300 M<br>     <b>Start Year:</b> 2029.0     </div>`)[0];
+            popup_5f3c213d52ac16cdc182f3dc80a6fb0f.setContent(html_de12045bc5afcb3952555da9e26cd374);
+        
+
+        marker_bde99425f7b7a2f0b92b679ac868d32e.bindPopup(popup_5f3c213d52ac16cdc182f3dc80a6fb0f)
+        ;
+
+        
+    
+    
+            var marker_31462ebff71926fcef2785e650de7ce9 = L.marker(
+                [-32.786, 147.4637],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_94d0e9f5d114b34ad311e8e059577386 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_31462ebff71926fcef2785e650de7ce9.setIcon(icon_94d0e9f5d114b34ad311e8e059577386);
+        
+    
+        var popup_4d049393bd89af5de4cbaf23b885a860 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8d4feda15db514584926420be9e6109 = $(`<div id="html_a8d4feda15db514584926420be9e6109" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Burra project<br>     <b>Company:</b> Rio Tinto<br>     <b>State:</b> NSW<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $83 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_4d049393bd89af5de4cbaf23b885a860.setContent(html_a8d4feda15db514584926420be9e6109);
+        
+
+        marker_31462ebff71926fcef2785e650de7ce9.bindPopup(popup_4d049393bd89af5de4cbaf23b885a860)
+        ;
+
+        
+    
+    
+            var marker_642857e935e15185a75db3482b6705b7 = L.marker(
+                [-14.96, 145.33],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_bf9d4a62d8ea19011d551b2012a3b8a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_642857e935e15185a75db3482b6705b7.setIcon(icon_bf9d4a62d8ea19011d551b2012a3b8a0);
+        
+    
+        var popup_82db6fae61d10159aa09d98111460f28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_407558c5c915ca4962d00ad1ff571f31 = $(`<div id="html_407558c5c915ca4962d00ad1ff571f31" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Cape Flattery Silica Sands<br>     <b>Company:</b> Diatreme Resources<br>     <b>State:</b> QLD<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $237 M<br>     <b>Start Year:</b> 2027.0     </div>`)[0];
+            popup_82db6fae61d10159aa09d98111460f28.setContent(html_407558c5c915ca4962d00ad1ff571f31);
+        
+
+        marker_642857e935e15185a75db3482b6705b7.bindPopup(popup_82db6fae61d10159aa09d98111460f28)
+        ;
+
+        
+    
+    
+            var marker_0fd9d8a6fc6e606b60eaa391496e9997 = L.marker(
+                [-33.3345, 116.2256],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_7479cba77d328085bc406de05483a624 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0fd9d8a6fc6e606b60eaa391496e9997.setIcon(icon_7479cba77d328085bc406de05483a624);
+        
+    
+        var popup_c13491c11cf3860030db11dd585b8670 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c622f5198c4e6429489f6954dd293c5 = $(`<div id="html_5c622f5198c4e6429489f6954dd293c5" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Collie BAM Facility<br>     <b>Company:</b> International Graphite<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $341 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_c13491c11cf3860030db11dd585b8670.setContent(html_5c622f5198c4e6429489f6954dd293c5);
+        
+
+        marker_0fd9d8a6fc6e606b60eaa391496e9997.bindPopup(popup_c13491c11cf3860030db11dd585b8670)
+        ;
+
+        
+    
+    
+            var marker_ad6c9f2392c00184b368e8374b8b9578 = L.marker(
+                [-33.616374, 141.351656],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_ae538f3971293e19591f989ea3435923 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ad6c9f2392c00184b368e8374b8b9578.setIcon(icon_ae538f3971293e19591f989ea3435923);
+        
+    
+        var popup_6b899a6bc365b81daa3987c2d7ccb3f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9054e5178193594bc505ab7dce4fd5c0 = $(`<div id="html_9054e5178193594bc505ab7dce4fd5c0" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Copi Project<br>     <b>Company:</b> RZ Resources<br>     <b>State:</b> NSW<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $639 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_6b899a6bc365b81daa3987c2d7ccb3f7.setContent(html_9054e5178193594bc505ab7dce4fd5c0);
+        
+
+        marker_ad6c9f2392c00184b368e8374b8b9578.bindPopup(popup_6b899a6bc365b81daa3987c2d7ccb3f7)
+        ;
+
+        
+    
+    
+            var marker_3775a2aeba469fd957c4d91132c6cdec = L.marker(
+                [-19.28663, 127.1687],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_a4a64dfed6803d1603b915746034ee38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3775a2aeba469fd957c4d91132c6cdec.setIcon(icon_a4a64dfed6803d1603b915746034ee38);
+        
+    
+        var popup_a8db4b21ac6b830a1fa074b976bad628 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75fa083e11e1d64cb3d611b69e59e1bb = $(`<div id="html_75fa083e11e1d64cb3d611b69e59e1bb" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Cummins Range (Stage 2)<br>     <b>Company:</b> RareX Ltd.<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $304 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_a8db4b21ac6b830a1fa074b976bad628.setContent(html_75fa083e11e1d64cb3d611b69e59e1bb);
+        
+
+        marker_3775a2aeba469fd957c4d91132c6cdec.bindPopup(popup_a8db4b21ac6b830a1fa074b976bad628)
+        ;
+
+        
+    
+    
+            var marker_ac068003b5a00b616bfd32d7d1a28e8d = L.marker(
+                [-28.8176, 128.7354],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_f96670e6ee1026728eb32f50d1233fcf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ac068003b5a00b616bfd32d7d1a28e8d.setIcon(icon_f96670e6ee1026728eb32f50d1233fcf);
+        
+    
+        var popup_13c9947957cbdeee50adf28f2a71a783 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e703f3e902f936d6734cf7d6fedff3b = $(`<div id="html_8e703f3e902f936d6734cf7d6fedff3b" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Cyclone Zircon Project<br>     <b>Company:</b> Diatreme Resources<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $135 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_13c9947957cbdeee50adf28f2a71a783.setContent(html_8e703f3e902f936d6734cf7d6fedff3b);
+        
+
+        marker_ac068003b5a00b616bfd32d7d1a28e8d.bindPopup(popup_13c9947957cbdeee50adf28f2a71a783)
+        ;
+
+        
+    
+    
+            var marker_02a8512c86a6eb9cd4c164a1dc0b738f = L.marker(
+                [-12.5719, 130.9508],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_0e35090f0e25ff034d3ab4595720e63b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_02a8512c86a6eb9cd4c164a1dc0b738f.setIcon(icon_0e35090f0e25ff034d3ab4595720e63b);
+        
+    
+        var popup_aada48ed83560ca48a716d6dd9d3842e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_453eac1f4e22af782d69a64bcccb5f6a = $(`<div id="html_453eac1f4e22af782d69a64bcccb5f6a" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Darwin LFP cathode manufacturing plant<br>     <b>Company:</b> Avenira Ltd<br>     <b>State:</b> NT<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $527 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_aada48ed83560ca48a716d6dd9d3842e.setContent(html_453eac1f4e22af782d69a64bcccb5f6a);
+        
+
+        marker_02a8512c86a6eb9cd4c164a1dc0b738f.bindPopup(popup_aada48ed83560ca48a716d6dd9d3842e)
+        ;
+
+        
+    
+    
+            var marker_a08999ba45ffe1e37a039c488d4f97b8 = L.marker(
+                [-36.4992, 142.7815],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_e9eb38ed1e59cd6ea9890801891a75dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a08999ba45ffe1e37a039c488d4f97b8.setIcon(icon_e9eb38ed1e59cd6ea9890801891a75dc);
+        
+    
+        var popup_bf34d6c32faf256a2f9f985c78c31687 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08b0bfc91cec092fb326f4e571b4ecde = $(`<div id="html_08b0bfc91cec092fb326f4e571b4ecde" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Donald Rare Earth and Mineral Sands Project (phase 1)<br>     <b>Company:</b> Astron Limited/Energy Fuels<br>     <b>State:</b> VIC<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $480 M<br>     <b>Start Year:</b> 2027.0     </div>`)[0];
+            popup_bf34d6c32faf256a2f9f985c78c31687.setContent(html_08b0bfc91cec092fb326f4e571b4ecde);
+        
+
+        marker_a08999ba45ffe1e37a039c488d4f97b8.bindPopup(popup_bf34d6c32faf256a2f9f985c78c31687)
+        ;
+
+        
+    
+    
+            var marker_d1d8093e71d17a11374fdb2ecab3f64d = L.marker(
+                [-36.5, 142.78],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_a399b89508d55d0a7fcab0db60d53cd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d1d8093e71d17a11374fdb2ecab3f64d.setIcon(icon_a399b89508d55d0a7fcab0db60d53cd8);
+        
+    
+        var popup_a26f19e2a268dbccabec698b6c09fe98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_267cc628d7b993055f3a22326cbd06d9 = $(`<div id="html_267cc628d7b993055f3a22326cbd06d9" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Donald Rare Earth and Mineral Sands Project (phase 2)<br>     <b>Company:</b> Astron Limited/Energy Fuels<br>     <b>State:</b> VIC<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $556 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_a26f19e2a268dbccabec698b6c09fe98.setContent(html_267cc628d7b993055f3a22326cbd06d9);
+        
+
+        marker_d1d8093e71d17a11374fdb2ecab3f64d.bindPopup(popup_a26f19e2a268dbccabec698b6c09fe98)
+        ;
+
+        
+    
+    
+            var marker_19280efcdb8fc4cc1a778d6caea6f35d = L.marker(
+                [-32.4643, 148.6235],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_55b5f00cfa160c2cf0e655144d5473f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_19280efcdb8fc4cc1a778d6caea6f35d.setIcon(icon_55b5f00cfa160c2cf0e655144d5473f6);
+        
+    
+        var popup_acb83ad747c36925834f2cbb56d11008 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dec6aeec86a3cbafe6a7c39647ac9f68 = $(`<div id="html_dec6aeec86a3cbafe6a7c39647ac9f68" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Dubbo Project<br>     <b>Company:</b> Australian Strategic Materials Limited<br>     <b>State:</b> NSW<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $1,678 M<br>     <b>Start Year:</b> 2028.0     </div>`)[0];
+            popup_acb83ad747c36925834f2cbb56d11008.setContent(html_dec6aeec86a3cbafe6a7c39647ac9f68);
+        
+
+        marker_19280efcdb8fc4cc1a778d6caea6f35d.bindPopup(popup_acb83ad747c36925834f2cbb56d11008)
+        ;
+
+        
+    
+    
+            var marker_be8ed0104e19ed67a031716d4e877346 = L.marker(
+                [-29.9236, 115.2265],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_85c4d811426ff91d217100eb9c40fb85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_be8ed0104e19ed67a031716d4e877346.setIcon(icon_85c4d811426ff91d217100eb9c40fb85);
+        
+    
+        var popup_3e98d9cfe29004b060fb77766d900c2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88a5c91668dc69ba4ac06ca7170603a5 = $(`<div id="html_88a5c91668dc69ba4ac06ca7170603a5" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Eneabba Rare Earths Processing Plant<br>     <b>Company:</b> Iluka Resources<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $1,750 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_3e98d9cfe29004b060fb77766d900c2e.setContent(html_88a5c91668dc69ba4ac06ca7170603a5);
+        
+
+        marker_be8ed0104e19ed67a031716d4e877346.bindPopup(popup_3e98d9cfe29004b060fb77766d900c2e)
+        ;
+
+        
+    
+    
+            var marker_974d32ca7f0cbf12dc69052ae41a6ca2 = L.marker(
+                [-37.8, 147.37],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_33576125bde84cbae1ec4e4fb4e9f5ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_974d32ca7f0cbf12dc69052ae41a6ca2.setIcon(icon_33576125bde84cbae1ec4e4fb4e9f5ce);
+        
+    
+        var popup_061aeb6f37447e8b4c47305b824adb96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9ef098bd016847acccd9592d45a5102 = $(`<div id="html_b9ef098bd016847acccd9592d45a5102" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Fingerboards<br>     <b>Company:</b> Gippsland Critical Minerals<br>     <b>State:</b> VIC<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $200 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_061aeb6f37447e8b4c47305b824adb96.setContent(html_b9ef098bd016847acccd9592d45a5102);
+        
+
+        marker_974d32ca7f0cbf12dc69052ae41a6ca2.bindPopup(popup_061aeb6f37447e8b4c47305b824adb96)
+        ;
+
+        
+    
+    
+            var marker_63ee0696bb3457ec8d34d8bd591fbd6c = L.marker(
+                [-14.007, 136.589],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_33990207336e671bed4e9e412e3c0ab2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_63ee0696bb3457ec8d34d8bd591fbd6c.setIcon(icon_33990207336e671bed4e9e412e3c0ab2);
+        
+    
+        var popup_9ff949812b89288df9e850221de0e56e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7296dc8f7dbc0b5569e1001604f36c3e = $(`<div id="html_7296dc8f7dbc0b5569e1001604f36c3e" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> GEMCO - Eastern lease South Life Expansion<br>     <b>Company:</b> GEMCO (South32 & Anglo American)<br>     <b>State:</b> NT<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $66 M<br>     <b>Start Year:</b> 2025.0     </div>`)[0];
+            popup_9ff949812b89288df9e850221de0e56e.setContent(html_7296dc8f7dbc0b5569e1001604f36c3e);
+        
+
+        marker_63ee0696bb3457ec8d34d8bd591fbd6c.bindPopup(popup_9ff949812b89288df9e850221de0e56e)
+        ;
+
+        
+    
+    
+            var marker_6b16940cc56eb488e8de2ddf6046995d = L.marker(
+                [-35.88, 143.36],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_ca2573851d85787711dece98f9def91a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6b16940cc56eb488e8de2ddf6046995d.setIcon(icon_ca2573851d85787711dece98f9def91a);
+        
+    
+        var popup_fe95654981fb2acec92aa050923cede8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5968a26d964fea7e7f7f30a99885e030 = $(`<div id="html_5968a26d964fea7e7f7f30a99885e030" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Goschen Central (stage 1)<br>     <b>Company:</b> ACDC Metals<br>     <b>State:</b> VIC<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $304 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_fe95654981fb2acec92aa050923cede8.setContent(html_5968a26d964fea7e7f7f30a99885e030);
+        
+
+        marker_6b16940cc56eb488e8de2ddf6046995d.bindPopup(popup_fe95654981fb2acec92aa050923cede8)
+        ;
+
+        
+    
+    
+            var marker_b09ad8098b2d9081446f99ae18f0439b = L.marker(
+                [-35.88, 146.36],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_c5571d55482702b64ef524e729bad785 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b09ad8098b2d9081446f99ae18f0439b.setIcon(icon_c5571d55482702b64ef524e729bad785);
+        
+    
+        var popup_6550dd5c561313f8f6bbefe77272cdd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16dc7ce9b6d689f8852ab58724819365 = $(`<div id="html_16dc7ce9b6d689f8852ab58724819365" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Goschen Central (stage 2)<br>     <b>Company:</b> ACDC Metals<br>     <b>State:</b> VIC<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $104 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_6550dd5c561313f8f6bbefe77272cdd7.setContent(html_16dc7ce9b6d689f8852ab58724819365);
+        
+
+        marker_b09ad8098b2d9081446f99ae18f0439b.bindPopup(popup_6550dd5c561313f8f6bbefe77272cdd7)
+        ;
+
+        
+    
+    
+            var marker_20c9f2869e771c3b3759c892bf8b8359 = L.marker(
+                [-35.6733, 143.3741],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_53aebd4975fc49dc66830a3dde11dfe4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_20c9f2869e771c3b3759c892bf8b8359.setIcon(icon_53aebd4975fc49dc66830a3dde11dfe4);
+        
+    
+        var popup_220986b7df1614664c8f3601ec0b1fef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ec3114cb7b663c453744309ae0d7faa = $(`<div id="html_3ec3114cb7b663c453744309ae0d7faa" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Goschen Rare Earths and Mineral Sands Project (Stages 1 and 1A)<br>     <b>Company:</b> VHM Ltd<br>     <b>State:</b> VIC<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $461 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_220986b7df1614664c8f3601ec0b1fef.setContent(html_3ec3114cb7b663c453744309ae0d7faa);
+        
+
+        marker_20c9f2869e771c3b3759c892bf8b8359.bindPopup(popup_220986b7df1614664c8f3601ec0b1fef)
+        ;
+
+        
+    
+    
+            var marker_63c9c04f1c8369d967a6b3f86e90963b = L.marker(
+                [-34.26, 115.41],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_baa8c54e32ad6b46f1ff0cf15f251a30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_63c9c04f1c8369d967a6b3f86e90963b.setIcon(icon_baa8c54e32ad6b46f1ff0cf15f251a30);
+        
+    
+        var popup_3b15853e5fbedb64e64714c20f9f9ebc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b122690fcb53e6af35fbb4dd2476f137 = $(`<div id="html_b122690fcb53e6af35fbb4dd2476f137" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Governor Broome<br>     <b>Company:</b> Astute Metals<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $91 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_3b15853e5fbedb64e64714c20f9f9ebc.setContent(html_b122690fcb53e6af35fbb4dd2476f137);
+        
+
+        marker_63c9c04f1c8369d967a6b3f86e90963b.bindPopup(popup_3b15853e5fbedb64e64714c20f9f9ebc)
+        ;
+
+        
+    
+    
+            var marker_b972035b7c1c85ff4e0e2a33e48dab2d = L.marker(
+                [-30.57450037, 151.9008722],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_26bb0a104772bc4733711f54a429f332 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b972035b7c1c85ff4e0e2a33e48dab2d.setIcon(icon_26bb0a104772bc4733711f54a429f332);
+        
+    
+        var popup_2d2b256ded2f53bac03200e1b31399b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27e18daa8a6527400f5bc0057227ab6b = $(`<div id="html_27e18daa8a6527400f5bc0057227ab6b" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Hillgrove Gold-Antimony Project<br>     <b>Company:</b> Larvotto Resources<br>     <b>State:</b> NSW<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $73 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_2d2b256ded2f53bac03200e1b31399b2.setContent(html_27e18daa8a6527400f5bc0057227ab6b);
+        
+
+        marker_b972035b7c1c85ff4e0e2a33e48dab2d.bindPopup(popup_2d2b256ded2f53bac03200e1b31399b2)
+        ;
+
+        
+    
+    
+            var marker_2d050967add30275b250004f834f4569 = L.marker(
+                [-20.66, 141.75],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_d0177e65ede55102146b84e0d62e200c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2d050967add30275b250004f834f4569.setIcon(icon_d0177e65ede55102146b84e0d62e200c);
+        
+    
+        var popup_2a854d1b76b5f8c1a36557c3984a9451 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96fd2f66a4b101ad62660f3d76dc3556 = $(`<div id="html_96fd2f66a4b101ad62660f3d76dc3556" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Julia Creek Project<br>     <b>Company:</b> QEM Limited<br>     <b>State:</b> QLD<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $791 M<br>     <b>Start Year:</b> 2029.0     </div>`)[0];
+            popup_2a854d1b76b5f8c1a36557c3984a9451.setContent(html_96fd2f66a4b101ad62660f3d76dc3556);
+        
+
+        marker_2d050967add30275b250004f834f4569.bindPopup(popup_2a854d1b76b5f8c1a36557c3984a9451)
+        ;
+
+        
+    
+    
+            var marker_1bb0438d6f5fd3034078ff5e12256ee4 = L.marker(
+                [-30.7011, 121.506],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_7de6c8d6aca63985830fdc48187a0b45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1bb0438d6f5fd3034078ff5e12256ee4.setIcon(icon_7de6c8d6aca63985830fdc48187a0b45);
+        
+    
+        var popup_41904732aa2039c08e89c83c8151081d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a4b6095ac3f264651937bc30e6a7f87 = $(`<div id="html_2a4b6095ac3f264651937bc30e6a7f87" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Kalgoorlie Rare Earths Processing Facility<br>     <b>Company:</b> Lynas Rare Earths Ltd.<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $780 M<br>     <b>Start Year:</b> 2024.0     </div>`)[0];
+            popup_41904732aa2039c08e89c83c8151081d.setContent(html_2a4b6095ac3f264651937bc30e6a7f87);
+        
+
+        marker_1bb0438d6f5fd3034078ff5e12256ee4.bindPopup(popup_41904732aa2039c08e89c83c8151081d)
+        ;
+
+        
+    
+    
+            var marker_f5b40d5b7f4384e362ba27aa7c67c1a4 = L.marker(
+                [-20.62789, 116.78747],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_4e0c6c1f9e1fbeaa8832a603099eeb3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f5b40d5b7f4384e362ba27aa7c67c1a4.setIcon(icon_4e0c6c1f9e1fbeaa8832a603099eeb3d);
+        
+    
+        var popup_7d055ff93b52bb7986740781cfefdd08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28ba355a8c7052f2e612d1c8754b2f31 = $(`<div id="html_28ba355a8c7052f2e612d1c8754b2f31" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Karratha Project<br>     <b>Company:</b> EcoMag Ltd<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $120 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_7d055ff93b52bb7986740781cfefdd08.setContent(html_28ba355a8c7052f2e612d1c8754b2f31);
+        
+
+        marker_f5b40d5b7f4384e362ba27aa7c67c1a4.bindPopup(popup_7d055ff93b52bb7986740781cfefdd08)
+        ;
+
+        
+    
+    
+            var marker_0960a047ae9462d7956f413f32111259 = L.marker(
+                [-36.82777, 140.84887],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_9f1c252b4afda5c62537a15712fe8391 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0960a047ae9462d7956f413f32111259.setIcon(icon_9f1c252b4afda5c62537a15712fe8391);
+        
+    
+        var popup_5ae16ea602f23992ab74617a931196fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcdc4c1241163098154d08c2142e5115 = $(`<div id="html_fcdc4c1241163098154d08c2142e5115" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Koppamurra<br>     <b>Company:</b> Australian Rare Earths Limited<br>     <b>State:</b> SA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $113 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_5ae16ea602f23992ab74617a931196fb.setContent(html_fcdc4c1241163098154d08c2142e5115);
+        
+
+        marker_0960a047ae9462d7956f413f32111259.bindPopup(popup_5ae16ea602f23992ab74617a931196fb)
+        ;
+
+        
+    
+    
+            var marker_05ba603248725740baddbb7b3fe3e87a = L.marker(
+                [-32.2138, 115.773247],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_bb303e13abce94f5cb632121cdbb8620 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_05ba603248725740baddbb7b3fe3e87a.setIcon(icon_bb303e13abce94f5cb632121cdbb8620);
+        
+    
+        var popup_141007047f3ede1ad98cc1c97b3de522 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3891256b4838facc4e3507eb3bc16cd4 = $(`<div id="html_3891256b4838facc4e3507eb3bc16cd4" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Kwinana Integrated Battery Material Facility<br>     <b>Company:</b> IGO Ltd/Wyloo Metals<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $800 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_141007047f3ede1ad98cc1c97b3de522.setContent(html_3891256b4838facc4e3507eb3bc16cd4);
+        
+
+        marker_05ba603248725740baddbb7b3fe3e87a.bindPopup(popup_141007047f3ede1ad98cc1c97b3de522)
+        ;
+
+        
+    
+    
+            var marker_154423b5694a19c866a90c0916b21a41 = L.marker(
+                [-38.217553, 146.4016],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_bd04b01d2d16eb6e625f0f64da50a73c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_154423b5694a19c866a90c0916b21a41.setIcon(icon_bd04b01d2d16eb6e625f0f64da50a73c);
+        
+    
+        var popup_0ce6ca8437f5a81202fe1e5de4010a5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2ddff83cb9174aa91cea668038a164a = $(`<div id="html_d2ddff83cb9174aa91cea668038a164a" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Latrobe magnesium project (Stage 2)<br>     <b>Company:</b> Latrobe Magnesium<br>     <b>State:</b> VIC<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $150 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_0ce6ca8437f5a81202fe1e5de4010a5c.setContent(html_d2ddff83cb9174aa91cea668038a164a);
+        
+
+        marker_154423b5694a19c866a90c0916b21a41.bindPopup(popup_0ce6ca8437f5a81202fe1e5de4010a5c)
+        ;
+
+        
+    
+    
+            var marker_e642a0aef3fc295b76c8f4bdb796c730 = L.marker(
+                [-20.6, 142.0],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_17b813eab1d9c6cad3b28aa897f9cf89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e642a0aef3fc295b76c8f4bdb796c730.setIcon(icon_17b813eab1d9c6cad3b28aa897f9cf89);
+        
+    
+        var popup_8eb70a474e18f12dc0a4d0254195c3fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2775dfbc90956c62713c2a253e69515 = $(`<div id="html_f2775dfbc90956c62713c2a253e69515" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Lindfield Vanadium Project<br>     <b>Company:</b> Critical Minerals Group<br>     <b>State:</b> QLD<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $400 M<br>     <b>Start Year:</b> 2028.0     </div>`)[0];
+            popup_8eb70a474e18f12dc0a4d0254195c3fd.setContent(html_f2775dfbc90956c62713c2a253e69515);
+        
+
+        marker_e642a0aef3fc295b76c8f4bdb796c730.bindPopup(popup_8eb70a474e18f12dc0a4d0254195c3fd)
+        ;
+
+        
+    
+    
+            var marker_1369d4c085dad4cf84ebf54d1fdd9d71 = L.marker(
+                [-17.667146, 127.891866],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_626e16b6d122cc6e72c8eacda616ee60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1369d4c085dad4cf84ebf54d1fdd9d71.setIcon(icon_626e16b6d122cc6e72c8eacda616ee60);
+        
+    
+        var popup_aece930985482e81cb443a94ea35ea5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd58f457cbf018674526acb93b0d3124 = $(`<div id="html_bd58f457cbf018674526acb93b0d3124" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> McIntosh<br>     <b>Company:</b> Green Critical Minerals Ltd<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $148 M<br>     <b>Start Year:</b> 2027.0     </div>`)[0];
+            popup_aece930985482e81cb443a94ea35ea5a.setContent(html_bd58f457cbf018674526acb93b0d3124);
+        
+
+        marker_1369d4c085dad4cf84ebf54d1fdd9d71.bindPopup(popup_aece930985482e81cb443a94ea35ea5a)
+        ;
+
+        
+    
+    
+            var marker_87921457e674bee2919598bc52362fcd = L.marker(
+                [-34.7562791, 140.13893],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_0f579dbce7abf223a03c7a158714c55e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_87921457e674bee2919598bc52362fcd.setIcon(icon_0f579dbce7abf223a03c7a158714c55e);
+        
+    
+        var popup_a78b4fae37fd2d46b4cd824cae040f5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_882566d0f90137770348957b96bf0d52 = $(`<div id="html_882566d0f90137770348957b96bf0d52" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Mindarie Mineral Sands Project<br>     <b>Company:</b> Murray Zircon<br>     <b>State:</b> SA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $70 M<br>     <b>Start Year:</b> 2024.0     </div>`)[0];
+            popup_a78b4fae37fd2d46b4cd824cae040f5e.setContent(html_882566d0f90137770348957b96bf0d52);
+        
+
+        marker_87921457e674bee2919598bc52362fcd.bindPopup(popup_a78b4fae37fd2d46b4cd824cae040f5e)
+        ;
+
+        
+    
+    
+            var marker_019c54c56ae29aac12fa11ebc7e22066 = L.marker(
+                [-22.7571, 135.7493],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_cd060239746fc24f69b63d4f205ef11c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_019c54c56ae29aac12fa11ebc7e22066.setIcon(icon_cd060239746fc24f69b63d4f205ef11c);
+        
+    
+        var popup_a959a9d420c8e0c2cf3abd49990b0bbf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4e1636c0e03e875edc2acd5705fe12f = $(`<div id="html_c4e1636c0e03e875edc2acd5705fe12f" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Molyhil<br>     <b>Company:</b> Thor Mining/Investigator Resource Ltd<br>     <b>State:</b> NT<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $62 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_a959a9d420c8e0c2cf3abd49990b0bbf.setContent(html_c4e1636c0e03e875edc2acd5705fe12f);
+        
+
+        marker_019c54c56ae29aac12fa11ebc7e22066.bindPopup(popup_a959a9d420c8e0c2cf3abd49990b0bbf)
+        ;
+
+        
+    
+    
+            var marker_d5c1854fee0a3edb7721ddc1d2351f26 = L.marker(
+                [-29.18065, 116.97943],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_7566766371c2da1cd69d0ce4da5597d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d5c1854fee0a3edb7721ddc1d2351f26.setIcon(icon_7566766371c2da1cd69d0ce4da5597d2);
+        
+    
+        var popup_04cb90867e946dba788c524915493721 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d4b0cfca27d356a21cb246b34b8680a = $(`<div id="html_3d4b0cfca27d356a21cb246b34b8680a" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Mt Mulgine<br>     <b>Company:</b> Tungsten Mining<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $669 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_04cb90867e946dba788c524915493721.setContent(html_3d4b0cfca27d356a21cb246b34b8680a);
+        
+
+        marker_d5c1854fee0a3edb7721ddc1d2351f26.bindPopup(popup_04cb90867e946dba788c524915493721)
+        ;
+
+        
+    
+    
+            var marker_f6abba6e378c247f5cf6b6b1c6d209d1 = L.marker(
+                [-28.85994, 122.54723],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_54e7141c79f6da5f2f2d9e8cb9f86a7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f6abba6e378c247f5cf6b6b1c6d209d1.setIcon(icon_54e7141c79f6da5f2f2d9e8cb9f86a7c);
+        
+    
+        var popup_f6002dd85532686b8df881223c3b0a7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ed354447436a53fb8d74ee046471857 = $(`<div id="html_9ed354447436a53fb8d74ee046471857" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Mt Weld expansion<br>     <b>Company:</b> Lynas Rare Earths Ltd.<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $500 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_f6002dd85532686b8df881223c3b0a7e.setContent(html_9ed354447436a53fb8d74ee046471857);
+        
+
+        marker_f6abba6e378c247f5cf6b6b1c6d209d1.bindPopup(popup_f6002dd85532686b8df881223c3b0a7e)
+        ;
+
+        
+    
+    
+            var marker_be92b023f93987ff8b919eb3a0cf943e = L.marker(
+                [-33.66352, 120.858621],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_c5ecc1dcd4935fb4ba3e50ba7f22f5d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_be92b023f93987ff8b919eb3a0cf943e.setIcon(icon_c5ecc1dcd4935fb4ba3e50ba7f22f5d2);
+        
+    
+        var popup_0942223d425c7cc4c59dbb5550ac221c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d0427b6ec5027b07ffc29ef3492b3dd = $(`<div id="html_7d0427b6ec5027b07ffc29ef3492b3dd" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Munglinup<br>     <b>Company:</b> Mineral Commodities<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $86 M<br>     <b>Start Year:</b> 2025.0     </div>`)[0];
+            popup_0942223d425c7cc4c59dbb5550ac221c.setContent(html_7d0427b6ec5027b07ffc29ef3492b3dd);
+        
+
+        marker_be92b023f93987ff8b919eb3a0cf943e.bindPopup(popup_0942223d425c7cc4c59dbb5550ac221c)
+        ;
+
+        
+    
+    
+            var marker_ed31f00426bac7cb87c240136c20dc3a = L.marker(
+                [-32.89166, 151.70833],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_d21ab4626535defc98bc7b3c487e4104 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ed31f00426bac7cb87c240136c20dc3a.setIcon(icon_d21ab4626535defc98bc7b3c487e4104);
+        
+    
+        var popup_1edce6fa2e1c9a18853af6e0b1afc960 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4a0a27423af197c3961b5905a99a44a = $(`<div id="html_c4a0a27423af197c3961b5905a99a44a" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Murchison Technology Metals Project<br>     <b>Company:</b> Technology Metals AU Ltd<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $532 M<br>     <b>Start Year:</b> 2025.0     </div>`)[0];
+            popup_1edce6fa2e1c9a18853af6e0b1afc960.setContent(html_c4a0a27423af197c3961b5905a99a44a);
+        
+
+        marker_ed31f00426bac7cb87c240136c20dc3a.bindPopup(popup_1edce6fa2e1c9a18853af6e0b1afc960)
+        ;
+
+        
+    
+    
+            var marker_2d31792282fa8325b670e532a069e6fc = L.marker(
+                [-22.5938, 133.2386],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_d13546550bd113462d9446ef7c2e33bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2d31792282fa8325b670e532a069e6fc.setIcon(icon_d13546550bd113462d9446ef7c2e33bc);
+        
+    
+        var popup_f3b2ceeeed287199ae4e5e215e3d52fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8a96c52a9092b488fd0b8fdfe0d8b72 = $(`<div id="html_c8a96c52a9092b488fd0b8fdfe0d8b72" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Nolans Project<br>     <b>Company:</b> Arafura Resources<br>     <b>State:</b> NT<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $1,846 M<br>     <b>Start Year:</b> 2025.0     </div>`)[0];
+            popup_f3b2ceeeed287199ae4e5e215e3d52fa.setContent(html_c8a96c52a9092b488fd0b8fdfe0d8b72);
+        
+
+        marker_2d31792282fa8325b670e532a069e6fc.bindPopup(popup_f3b2ceeeed287199ae4e5e215e3d52fa)
+        ;
+
+        
+    
+    
+            var marker_928de10c7e17211426c9fa5672414ad2 = L.marker(
+                [-14.9680269568357, 145.313189270217],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_04550c71cb16218f32f8f84865b2200e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_928de10c7e17211426c9fa5672414ad2.setIcon(icon_04550c71cb16218f32f8f84865b2200e);
+        
+    
+        var popup_b86bfb3b60a3eaef73ee9bfb0bc92310 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13c1cc0142c1ad50793e609e548c7161 = $(`<div id="html_13c1cc0142c1ad50793e609e548c7161" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Northern Silica Project<br>     <b>Company:</b> Diatreme Resources<br>     <b>State:</b> QLD<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $535 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_b86bfb3b60a3eaef73ee9bfb0bc92310.setContent(html_13c1cc0142c1ad50793e609e548c7161);
+        
+
+        marker_928de10c7e17211426c9fa5672414ad2.bindPopup(popup_b86bfb3b60a3eaef73ee9bfb0bc92310)
+        ;
+
+        
+    
+    
+            var marker_8df30b80b2307ec4091ea6dc966f0c8a = L.marker(
+                [-31.612, 146.994],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_2e1ba03dec305d470cf3023cb7f2de5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8df30b80b2307ec4091ea6dc966f0c8a.setIcon(icon_2e1ba03dec305d470cf3023cb7f2de5a);
+        
+    
+        var popup_99080bc37f02a8835746b4479f0ad206 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2741e6ca8e384c1938cb08a291f34d9b = $(`<div id="html_2741e6ca8e384c1938cb08a291f34d9b" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Nyngan Scandium Project<br>     <b>Company:</b> Scandium International Mining Corporation<br>     <b>State:</b> NSW<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $131 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_99080bc37f02a8835746b4479f0ad206.setContent(html_2741e6ca8e384c1938cb08a291f34d9b);
+        
+
+        marker_8df30b80b2307ec4091ea6dc966f0c8a.bindPopup(popup_99080bc37f02a8835746b4479f0ad206)
+        ;
+
+        
+    
+    
+            var marker_dd39aeb19b7916e8abb900e72119bb16 = L.marker(
+                [-23.317, 120.678],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_03fa8d7f4be5b3a3dd23e6dd5dccb680 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dd39aeb19b7916e8abb900e72119bb16.setIcon(icon_03fa8d7f4be5b3a3dd23e6dd5dccb680);
+        
+    
+        var popup_fb215edd39d5dd49900a79d48c1c5ee7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04d8b9fc3a4ccc9295db0d58767b29c7 = $(`<div id="html_04d8b9fc3a4ccc9295db0d58767b29c7" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Oakover Project<br>     <b>Company:</b> Firebird Metals Ltd<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $123 M<br>     <b>Start Year:</b> 2025.0     </div>`)[0];
+            popup_fb215edd39d5dd49900a79d48c1c5ee7.setContent(html_04d8b9fc3a4ccc9295db0d58767b29c7);
+        
+
+        marker_dd39aeb19b7916e8abb900e72119bb16.bindPopup(popup_fb215edd39d5dd49900a79d48c1c5ee7)
+        ;
+
+        
+    
+    
+            var marker_a45c4753f0bc0e0fb0a11c656591c0d1 = L.marker(
+                [-17.79389, 127.8111],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_6d6b89f2809d4f0d0c22af8aa83e8b19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a45c4753f0bc0e0fb0a11c656591c0d1.setIcon(icon_6d6b89f2809d4f0d0c22af8aa83e8b19);
+        
+    
+        var popup_e7113e817fb2acc1566afeb355411b54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b60f36d18511e543f35e4a9b312ab47 = $(`<div id="html_4b60f36d18511e543f35e4a9b312ab47" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Panton Project<br>     <b>Company:</b> Future Metals<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $267 M<br>     <b>Start Year:</b> 2027.0     </div>`)[0];
+            popup_e7113e817fb2acc1566afeb355411b54.setContent(html_4b60f36d18511e543f35e4a9b312ab47);
+        
+
+        marker_a45c4753f0bc0e0fb0a11c656591c0d1.bindPopup(popup_e7113e817fb2acc1566afeb355411b54)
+        ;
+
+        
+    
+    
+            var marker_3b4563aeca70b990c00a41b11e4e5b7c = L.marker(
+                [-20.21014, 141.7256],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_6d429c55a753beb66a4560e66d23fd96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3b4563aeca70b990c00a41b11e4e5b7c.setIcon(icon_6d429c55a753beb66a4560e66d23fd96);
+        
+    
+        var popup_03eb05bbe26555c94d744863acd71fab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94267c9a25290e35e9d2810dedef086b = $(`<div id="html_94267c9a25290e35e9d2810dedef086b" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Richmond-Julia Creek Vanadium Project<br>     <b>Company:</b> Richmond Vanadium Technology Pty Ltd<br>     <b>State:</b> QLD<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $242 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_03eb05bbe26555c94d744863acd71fab.setContent(html_94267c9a25290e35e9d2810dedef086b);
+        
+
+        marker_3b4563aeca70b990c00a41b11e4e5b7c.bindPopup(popup_03eb05bbe26555c94d744863acd71fab)
+        ;
+
+        
+    
+    
+            var marker_2891f42c1fc9365a308983572b301470 = L.marker(
+                [-20.5533, 141.8747],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_0bf92091c98d78473f0a4d7b99d89124 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2891f42c1fc9365a308983572b301470.setIcon(icon_0bf92091c98d78473f0a4d7b99d89124);
+        
+    
+        var popup_6dcc1cf9e7d26e550ee81d9224fe2efb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6022d2c8671d790ed0515413fdc2d0d4 = $(`<div id="html_6022d2c8671d790ed0515413fdc2d0d4" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Saint Elmo<br>     <b>Company:</b> Multicom Resources Limited<br>     <b>State:</b> QLD<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $350 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_6dcc1cf9e7d26e550ee81d9224fe2efb.setContent(html_6022d2c8671d790ed0515413fdc2d0d4);
+        
+
+        marker_2891f42c1fc9365a308983572b301470.bindPopup(popup_6dcc1cf9e7d26e550ee81d9224fe2efb)
+        ;
+
+        
+    
+    
+            var marker_0248ee4ba2337a05b86cae43b58af23d = L.marker(
+                [-33.958, 136.436],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_cad601dbf68114a353a7b5a951b59763 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0248ee4ba2337a05b86cae43b58af23d.setIcon(icon_cad601dbf68114a353a7b5a951b59763);
+        
+    
+        var popup_aaaf8c115e901685f5bac77008f7a81e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_517d72b7e9e9596031a5ab9fac04e9fd = $(`<div id="html_517d72b7e9e9596031a5ab9fac04e9fd" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Siviour Graphite Project (Stage 1)<br>     <b>Company:</b> Renascor<br>     <b>State:</b> SA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $215 M<br>     <b>Start Year:</b> 2025.0     </div>`)[0];
+            popup_aaaf8c115e901685f5bac77008f7a81e.setContent(html_517d72b7e9e9596031a5ab9fac04e9fd);
+        
+
+        marker_0248ee4ba2337a05b86cae43b58af23d.bindPopup(popup_aaaf8c115e901685f5bac77008f7a81e)
+        ;
+
+        
+    
+    
+            var marker_ffcb439c04cfcef75b20bd065f147270 = L.marker(
+                [-33.958, 136.436],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_35ceb1e0912e34735054157416e15d2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ffcb439c04cfcef75b20bd065f147270.setIcon(icon_35ceb1e0912e34735054157416e15d2f);
+        
+    
+        var popup_f901073ec81536cc7713629addd1c9d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1195d8a96b5bcd3d0666ca5150eb62ac = $(`<div id="html_1195d8a96b5bcd3d0666ca5150eb62ac" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Siviour Graphite Project (Stage 2)<br>     <b>Company:</b> Renascor<br>     <b>State:</b> SA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $550 M<br>     <b>Start Year:</b> 2028.0     </div>`)[0];
+            popup_f901073ec81536cc7713629addd1c9d1.setContent(html_1195d8a96b5bcd3d0666ca5150eb62ac);
+        
+
+        marker_ffcb439c04cfcef75b20bd065f147270.bindPopup(popup_f901073ec81536cc7713629addd1c9d1)
+        ;
+
+        
+    
+    
+            var marker_73c7d3bb90139c8f9717e671d3401e6c = L.marker(
+                [-33.958, 136.436],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_10418112f4137a982181257353d1c756 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_73c7d3bb90139c8f9717e671d3401e6c.setIcon(icon_10418112f4137a982181257353d1c756);
+        
+    
+        var popup_c1704c64339ad89d315381576964ae90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_911de39551dcd22f642322f3f492ee2c = $(`<div id="html_911de39551dcd22f642322f3f492ee2c" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Siviour Purified Spherical Graphite Facility (Stage 1)<br>     <b>Company:</b> Renascor<br>     <b>State:</b> SA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $395 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_c1704c64339ad89d315381576964ae90.setContent(html_911de39551dcd22f642322f3f492ee2c);
+        
+
+        marker_73c7d3bb90139c8f9717e671d3401e6c.bindPopup(popup_c1704c64339ad89d315381576964ae90)
+        ;
+
+        
+    
+    
+            var marker_da721209f580d23e5e6e5b999eaa32f8 = L.marker(
+                [-33.958, 136.436],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_1ec9cb06b935b90431996e1cfa492b44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_da721209f580d23e5e6e5b999eaa32f8.setIcon(icon_1ec9cb06b935b90431996e1cfa492b44);
+        
+    
+        var popup_2bb8e386b46146c95132c8227adeb3cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b779b4f5faf26b4aaf65d7342d76910d = $(`<div id="html_b779b4f5faf26b4aaf65d7342d76910d" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Siviour Purified Spherical Graphite Facility (Stage 2)<br>     <b>Company:</b> Renascor<br>     <b>State:</b> SA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $377 M<br>     <b>Start Year:</b> 2029.0     </div>`)[0];
+            popup_2bb8e386b46146c95132c8227adeb3cc.setContent(html_b779b4f5faf26b4aaf65d7342d76910d);
+        
+
+        marker_da721209f580d23e5e6e5b999eaa32f8.bindPopup(popup_2bb8e386b46146c95132c8227adeb3cc)
+        ;
+
+        
+    
+    
+            var marker_e6186869855987f28b9023dd83859696 = L.marker(
+                [-16.36158, 127.94974],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_aa19c661665bcdce222309c42415d649 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e6186869855987f28b9023dd83859696.setIcon(icon_aa19c661665bcdce222309c42415d649);
+        
+    
+        var popup_523442d9bb232c657a531e1615d7eae1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c17251daafc6549d60e2f118b3c4cbbb = $(`<div id="html_c17251daafc6549d60e2f118b3c4cbbb" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Speewah<br>     <b>Company:</b> Tivan Limited<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $550 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_523442d9bb232c657a531e1615d7eae1.setContent(html_c17251daafc6549d60e2f118b3c4cbbb);
+        
+
+        marker_e6186869855987f28b9023dd83859696.bindPopup(popup_523442d9bb232c657a531e1615d7eae1)
+        ;
+
+        
+    
+    
+            var marker_eaa38cf426526732fc79262bb5e7a1de = L.marker(
+                [-16.36158, 127.95042],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_c8ec7af750312ed5b6df9e476c4de7a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eaa38cf426526732fc79262bb5e7a1de.setIcon(icon_c8ec7af750312ed5b6df9e476c4de7a4);
+        
+    
+        var popup_13c17feed8ee821a6405a085fa3d792b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67d358ca0927f8f67784c3c706679586 = $(`<div id="html_67d358ca0927f8f67784c3c706679586" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Speewah Fluorite Project<br>     <b>Company:</b> Tivan Limited<br>     <b>State:</b> NT<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $236 M<br>     <b>Start Year:</b> 2027.0     </div>`)[0];
+            popup_13c17feed8ee821a6405a085fa3d792b.setContent(html_67d358ca0927f8f67784c3c706679586);
+        
+
+        marker_eaa38cf426526732fc79262bb5e7a1de.bindPopup(popup_13c17feed8ee821a6405a085fa3d792b)
+        ;
+
+        
+    
+    
+            var marker_583cea0cd941e81fa77b665a245d8efb = L.marker(
+                [-17.4317, 122.9679],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_8222acdf37b0e6f533f9d5553ada023e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_583cea0cd941e81fa77b665a245d8efb.setIcon(icon_8222acdf37b0e6f533f9d5553ada023e);
+        
+    
+        var popup_5b57c4a81e7eee1635a6877c64b96f0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abbdc156cb1777b4af1aeabddc53706e = $(`<div id="html_abbdc156cb1777b4af1aeabddc53706e" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Thunderbird (Stage 1)<br>     <b>Company:</b> Sheffield Resources/Yansteel<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $379 M<br>     <b>Start Year:</b> 2024.0     </div>`)[0];
+            popup_5b57c4a81e7eee1635a6877c64b96f0b.setContent(html_abbdc156cb1777b4af1aeabddc53706e);
+        
+
+        marker_583cea0cd941e81fa77b665a245d8efb.bindPopup(popup_5b57c4a81e7eee1635a6877c64b96f0b)
+        ;
+
+        
+    
+    
+            var marker_221195e74f82a8ea6fa120cabcbf6fea = L.marker(
+                [-17.431715, 122.967879],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_d53eee9294490ac896e4657b86d776e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_221195e74f82a8ea6fa120cabcbf6fea.setIcon(icon_d53eee9294490ac896e4657b86d776e8);
+        
+    
+        var popup_f3f44877b4d1cfe398936681fbbb9b69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7ecf3d942d960d42769467d45d9707c = $(`<div id="html_b7ecf3d942d960d42769467d45d9707c" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Thunderbird (Stage 2)<br>     <b>Company:</b> Sheffield Resources/Yansteel<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $258 M<br>     <b>Start Year:</b> 2028.0     </div>`)[0];
+            popup_f3f44877b4d1cfe398936681fbbb9b69.setContent(html_b7ecf3d942d960d42769467d45d9707c);
+        
+
+        marker_221195e74f82a8ea6fa120cabcbf6fea.bindPopup(popup_f3f44877b4d1cfe398936681fbbb9b69)
+        ;
+
+        
+    
+    
+            var marker_0a8e85be7bfe7f7a9897acf6b6bb7b4d = L.marker(
+                [-34.799274, 135.703459],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_6df03813f13163aa063eda363e500d27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0a8e85be7bfe7f7a9897acf6b6bb7b4d.setIcon(icon_6df03813f13163aa063eda363e500d27);
+        
+    
+        var popup_46e815423f02b207ebe2ccc9b2e75e6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e7b7e8794bd0db02aa2de383792d349 = $(`<div id="html_9e7b7e8794bd0db02aa2de383792d349" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Uley 2<br>     <b>Company:</b> Quantum Graphite Limited<br>     <b>State:</b> SA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $153 M<br>     <b>Start Year:</b> 2025.0     </div>`)[0];
+            popup_46e815423f02b207ebe2ccc9b2e75e6a.setContent(html_9e7b7e8794bd0db02aa2de383792d349);
+        
+
+        marker_0a8e85be7bfe7f7a9897acf6b6bb7b4d.bindPopup(popup_46e815423f02b207ebe2ccc9b2e75e6a)
+        ;
+
+        
+    
+    
+            var marker_7a9c69183c7112018d587bd9b641242f = L.marker(
+                [-19.98, 142.02],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_d60466a7d93c7063d260c3c8cc42f3e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7a9c69183c7112018d587bd9b641242f.setIcon(icon_d60466a7d93c7063d260c3c8cc42f3e7);
+        
+    
+        var popup_3c0b94871d9bb9c7c6e69236f4662642 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78cf914f13b35f42ac64ba5c6c5f1907 = $(`<div id="html_78cf914f13b35f42ac64ba5c6c5f1907" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Vecco Critical Minerals Project (Stage 1)<br>     <b>Company:</b> Vecco<br>     <b>State:</b> QLD<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $606 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_3c0b94871d9bb9c7c6e69236f4662642.setContent(html_78cf914f13b35f42ac64ba5c6c5f1907);
+        
+
+        marker_7a9c69183c7112018d587bd9b641242f.bindPopup(popup_3c0b94871d9bb9c7c6e69236f4662642)
+        ;
+
+        
+    
+    
+            var marker_1cf9c850a1d644024ee16683d640f704 = L.marker(
+                [-19.98, 142.02],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_ef7b1847d1aae9d0ddfa9ed7cc767664 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1cf9c850a1d644024ee16683d640f704.setIcon(icon_ef7b1847d1aae9d0ddfa9ed7cc767664);
+        
+    
+        var popup_51badc0802e4c8b73cb64926dd22084d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f52f2abd6ec647553530946bc60fcb91 = $(`<div id="html_f52f2abd6ec647553530946bc60fcb91" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Vecco Critical Minerals Project (Stage 2)<br>     <b>Company:</b> Vecco<br>     <b>State:</b> QLD<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $192 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_51badc0802e4c8b73cb64926dd22084d.setContent(html_f52f2abd6ec647553530946bc60fcb91);
+        
+
+        marker_1cf9c850a1d644024ee16683d640f704.bindPopup(popup_51badc0802e4c8b73cb64926dd22084d)
+        ;
+
+        
+    
+    
+            var marker_66756509a8bed2159e6cccda4e2da9d4 = L.marker(
+                [-30.87031, 121.2537],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_9fee647271e610cbdd7f43d79fd0419c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_66756509a8bed2159e6cccda4e2da9d4.setIcon(icon_9fee647271e610cbdd7f43d79fd0419c);
+        
+    
+        var popup_aa174c1f85a68bda141a08ade09f7ed6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97d120a587afa77a1d8caea428feb6d5 = $(`<div id="html_97d120a587afa77a1d8caea428feb6d5" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> WA pCAM Hub (refinery)<br>     <b>Company:</b> Pure Battery Technologies<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $460 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_aa174c1f85a68bda141a08ade09f7ed6.setContent(html_97d120a587afa77a1d8caea428feb6d5);
+        
+
+        marker_66756509a8bed2159e6cccda4e2da9d4.bindPopup(popup_aa174c1f85a68bda141a08ade09f7ed6)
+        ;
+
+        
+    
+    
+            var marker_a86b015f1d1359b24c988e624283295c = L.marker(
+                [-16.3361, 144.8819],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_504b7b2aa7159eb04f6ec085f4091964 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a86b015f1d1359b24c988e624283295c.setIcon(icon_504b7b2aa7159eb04f6ec085f4091964);
+        
+    
+        var popup_7a30cc32864486bc0e439156437b14d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1dcb92a7d9d3cd713adeaa8fc6a09f3 = $(`<div id="html_c1dcb92a7d9d3cd713adeaa8fc6a09f3" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Watershed Tungsten project<br>     <b>Company:</b> Tungsten Mining<br>     <b>State:</b> QLD<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $172 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_7a30cc32864486bc0e439156437b14d8.setContent(html_c1dcb92a7d9d3cd713adeaa8fc6a09f3);
+        
+
+        marker_a86b015f1d1359b24c988e624283295c.bindPopup(popup_7a30cc32864486bc0e439156437b14d8)
+        ;
+
+        
+    
+    
+            var marker_de19d07c85b5482a00fdde21a58281e7 = L.marker(
+                [-34.28, 143.38],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_5b073bce891fd00fed88d7f80efcef4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_de19d07c85b5482a00fdde21a58281e7.setIcon(icon_5b073bce891fd00fed88d7f80efcef4b);
+        
+    
+        var popup_9d292d37feb3482a51b87c58c85614b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2a985fcefae9dec7884712bc9fa6231 = $(`<div id="html_a2a985fcefae9dec7884712bc9fa6231" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Wimmera<br>     <b>Company:</b> Iluka Resources<br>     <b>State:</b> VIC<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $775 M<br>     <b>Start Year:</b> 2028.0     </div>`)[0];
+            popup_9d292d37feb3482a51b87c58c85614b2.setContent(html_a2a985fcefae9dec7884712bc9fa6231);
+        
+
+        marker_de19d07c85b5482a00fdde21a58281e7.bindPopup(popup_9d292d37feb3482a51b87c58c85614b2)
+        ;
+
+        
+    
+    
+            var marker_6750669f5a20724e1343a1df485bc328 = L.marker(
+                [-13.769, 136.508],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_43cedaaac253f51233d3cb28d395e24c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6750669f5a20724e1343a1df485bc328.setIcon(icon_43cedaaac253f51233d3cb28d395e24c);
+        
+    
+        var popup_1b8e46d148f25712b85526687c7d59b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af97f52fa53804f0d7adbd67cf545482 = $(`<div id="html_af97f52fa53804f0d7adbd67cf545482" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Winchelsea Island Manganese Mine Project<br>     <b>Company:</b> Winchelsea Mining Pty Ltd<br>     <b>State:</b> NT<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $100 M<br>     <b>Start Year:</b> 2028.0     </div>`)[0];
+            popup_1b8e46d148f25712b85526687c7d59b7.setContent(html_af97f52fa53804f0d7adbd67cf545482);
+        
+
+        marker_6750669f5a20724e1343a1df485bc328.bindPopup(popup_1b8e46d148f25712b85526687c7d59b7)
+        ;
+
+        
+    
+    
+            var marker_5141eea9a58ea8fe9fc09fbc79bcd7de = L.marker(
+                [-13.04618, 131.06118],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_c7bc626b896c28909c4a966928fb3073 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5141eea9a58ea8fe9fc09fbc79bcd7de.setIcon(icon_c7bc626b896c28909c4a966928fb3073);
+        
+    
+        var popup_6357a76d95b7cffe9501dcebc19ec557 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c06e50d7ae1d477953253279b3e17de1 = $(`<div id="html_c06e50d7ae1d477953253279b3e17de1" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Winchester Magnesium Project<br>     <b>Company:</b> Korab Resources<br>     <b>State:</b> NT<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $416 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_6357a76d95b7cffe9501dcebc19ec557.setContent(html_c06e50d7ae1d477953253279b3e17de1);
+        
+
+        marker_5141eea9a58ea8fe9fc09fbc79bcd7de.bindPopup(popup_6357a76d95b7cffe9501dcebc19ec557)
+        ;
+
+        
+    
+    
+            var marker_439905eeac6a07da00bbe8f96f9dd5eb = L.marker(
+                [-28.3032, 118.5322],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_da74a7402a862e88ee2db124801b8b84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_439905eeac6a07da00bbe8f96f9dd5eb.setIcon(icon_da74a7402a862e88ee2db124801b8b84);
+        
+    
+        var popup_808127fb9164e4ce3582d405c562bdc0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad605678a47fff0537323067bebb59e4 = $(`<div id="html_ad605678a47fff0537323067bebb59e4" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Windimurra<br>     <b>Company:</b> Atlantic Pty Ltd<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $213 M<br>     <b>Start Year:</b> nan     </div>`)[0];
+            popup_808127fb9164e4ce3582d405c562bdc0.setContent(html_ad605678a47fff0537323067bebb59e4);
+        
+
+        marker_439905eeac6a07da00bbe8f96f9dd5eb.bindPopup(popup_808127fb9164e4ce3582d405c562bdc0)
+        ;
+
+        
+    
+    
+            var marker_3c945cde2fb9b5cd496bad94aa9950d3 = L.marker(
+                [-23.8903, 116.1972],
+                {}
+            ).addTo(marker_cluster_482c19f0d46760660f1471a741aa67c6);
+        
+    
+            var icon_e31c8492a0f833da18b93f640bc298b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3c945cde2fb9b5cd496bad94aa9950d3.setIcon(icon_e31c8492a0f833da18b93f640bc298b4);
+        
+    
+        var popup_eb66a0cb2b3abb6a54cf4613539de0d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47f93cb700bebf286a06526f3a076034 = $(`<div id="html_47f93cb700bebf286a06526f3a076034" style="width: 100.0%; height: 100.0%;">     <b>Project:</b> Yangibana<br>     <b>Company:</b> Hastings Technology Metals Limited<br>     <b>State:</b> WA<br>     <b>Commodity:</b> Other Commodities<br>     <b>Cost:</b> $474 M<br>     <b>Start Year:</b> 2026.0     </div>`)[0];
+            popup_eb66a0cb2b3abb6a54cf4613539de0d1.setContent(html_47f93cb700bebf286a06526f3a076034);
+        
+
+        marker_3c945cde2fb9b5cd496bad94aa9950d3.bindPopup(popup_eb66a0cb2b3abb6a54cf4613539de0d1)
+        ;
+
+        
+    
+</script>
+</html>
